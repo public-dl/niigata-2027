@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>新潟市の寿司マップ | Niigata 2027</title>
+<meta name="description" content="新潟市の寿司特集で紹介した7店を地図にプロット。古町のおまかせカウンター、駅前の店、ピアBandaiの回転寿司まで、価格の目安つき。">
+<link rel="canonical" href="https://public-dl.github.io/niigata-2027/sushi-map-ja.html">
+<link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi-map.html">
+<link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-map-ja.html">
+<link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi-map.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Niigata 2027">
+<meta property="og:title" content="新潟市の寿司マップ | Niigata 2027">
+<meta property="og:description" content="新潟市の寿司特集で紹介した7店を地図にプロット。古町のおまかせカウンター、駅前の店、ピアBandaiの回転寿司まで、価格の目安つき。">
+<meta property="og:url" content="https://public-dl.github.io/niigata-2027/sushi-map-ja.html">
+<meta property="og:image" content="https://public-dl.github.io/niigata-2027/images/kiyotsu.jpg">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="新潟市の寿司マップ | Niigata 2027">
+<meta name="twitter:description" content="新潟市の寿司特集で紹介した7店を地図にプロット。古町のおまかせカウンター、駅前の店、ピアBandaiの回転寿司まで、価格の目安つき。">
+<meta name="twitter:image" content="https://public-dl.github.io/niigata-2027/images/kiyotsu.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "新潟市の寿司マップ | Niigata 2027",
+  "url": "https://public-dl.github.io/niigata-2027/sushi-map-ja.html",
+  "description": "新潟市の寿司特集で紹介した7店を地図にプロット。古町のおまかせカウンター、駅前の店、ピアBandaiの回転寿司まで、価格の目安つき。",
+  "inLanguage": "ja",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Niigata 2027",
+    "url": "https://public-dl.github.io/niigata-2027/"
+  }
+}
+</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root { --ink:#1d2a24; --accent:#1f5c3d; --vermillion:#b3402a; --paper:#faf7f0; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--paper); line-height:1.65; }
+  .lang { max-width:1060px; margin:0 auto; padding:.8rem 1.2rem 0; text-align:right; font-size:.9rem; }
+  main { max-width:1060px; margin:0 auto; padding:0 1.2rem 3rem; }
+  h1 { font-size:clamp(1.5rem, 4vw, 2.2rem); color:var(--accent); line-height:1.3; }
+  #map { height: 72vh; min-height:420px; border:1px solid #ddd5c3; }
+  .legend { margin:.7rem 0; font-size:.92rem; }
+  .lg { margin-right:1.1rem; white-space:nowrap; }
+  .dot { display:inline-block; width:.8em; height:.8em; border-radius:50%; margin-right:.35em; border:1px solid #fff; box-shadow:0 0 0 1px #999; }
+  a { color:var(--accent); }
+  footer { border-top:1px solid #ddd5c3; margin-top:2rem; padding-top:1.2rem; font-size:.85rem; color:#5c665f; }
+</style>
+</head>
+<body>
+<div class="lang"><a href="sushi-ja.html">← 新潟市の寿司</a> · <a href="sushi-map.html">English version</a></div>
+<main>
+<h1>新潟市の寿司マップ ― 特集の7店</h1>
+<p><a href='sushi-ja.html'>寿司特集</a>の7店を地図に落としました。4店は古町、2店は新潟駅前、1店はピアBandaiの中です。ピンを押すと、価格の目安や店の特徴が表示されます。ほとんどのピンは店の住所そのものですが、一部は通り・地区レベルの位置です。</p>
+<div class="legend"><span class="lg"><span class="dot" style="background:#b3402a"></span>おまかせカウンター</span><span class="lg"><span class="dot" style="background:#1f5c3d"></span>古町の老舗</span><span class="lg"><span class="dot" style="background:#20508c"></span>駅前</span><span class="lg"><span class="dot" style="background:#6b3fa0"></span>回転寿司</span></div>
+<div id="map"></div>
+<p style="font-size:.85rem;color:#5c665f">住所と内容は各店の公式サイト、食べログ、新潟県すし組合「極みマップ」で2026年11月に確認。地図 © OpenStreetMap contributors。 プロットしたデータは <a href="sushi.geojson">sushi.geojson</a> でも公開しています。</p>
+<footer>
+  <p><a href="ja.html">新潟 2027 ― 2誌が選んだ場所</a> の一部です。新潟で作った独立したガイドです。</p>
+  <p>Powered by <a href="https://public-dl.github.io/wooltech/">WoolTech</a></p>
+</footer>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const DATA = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.046249, 37.924114]}, "properties": {"name_en": "Kyodai Zushi", "name_ja": "兄弟寿し", "cat": "counter", "area_en": "Furumachi / Nabeyacho-dori, Chuo-ku", "area_ja": "中央区・東堀通8（鍋茶屋通り）", "note_en": "Omakase only, dinner only · guide ¥20,000–29,999 · Tabelog Award 2026 Silver", "note_ja": "夜のみ・おまかせのみ｜目安 20,000〜29,999円｜食べログアワード2026 Silver", "url": null, "precision": "STREET_GSI"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.047107, 37.922373]}, "properties": {"name_en": "Tokiwa Zushi (Niigata)", "name_ja": "登喜和鮨 新潟店", "cat": "counter", "area_en": "Honcho-dori, Furumachi, Chuo-ku", "area_ja": "中央区・本町通り7（古町）", "note_en": "Full course ¥28,600 · nigiri-only lunch (Thu & Fri) from ¥11,000 · ~99% Niigata ingredients", "note_ja": "フルコース 28,600円｜握りのみランチ（木・金）11,000円から｜食材の約99％が新潟産", "url": "https://tokiwasushi.top", "precision": "DISTRICT_OSM"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.0461681, 37.9247868]}, "properties": {"name_en": "Marui", "name_ja": "鮨・割烹 丸伊", "cat": "classic", "area_en": "Higashibori-dori, Chuo-ku", "area_ja": "中央区・東堀通8", "note_en": "50 years in the geisha district · 'Kiwami' set ¥4,950 · lunch from around ¥3,000", "note_ja": "花街で50年｜「極み」セット 4,950円｜ランチ 3,000円台から", "url": "https://sushi-marui.com/", "precision": "POI_OSM"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.04608, 37.92502]}, "properties": {"name_en": "Minato Sushi", "name_ja": "港すし", "cat": "classic", "area_en": "Furumachi-dori 9, Chuo-ku", "area_ja": "中央区・古町通9", "note_en": "Furumachi institution since 1933 · Niigata rice and Niigata fish · closed Mondays", "note_ja": "1933年創業の古町の老舗｜米も魚も新潟のもの｜月曜定休", "url": "https://3710-sushi.com/", "precision": "PLACE_LISTING"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.06121, 37.91614]}, "properties": {"name_en": "Sushi Iwa", "name_ja": "すしいわ", "cat": "station", "area_en": "Higashi-Odori, 5 min from Niigata Station", "area_ja": "中央区・東大通2（新潟駅から徒歩5分）", "note_en": "Shari of top-grade Iwafune Koshihikari · fish from the Niigata coast · closed Wednesdays", "note_ja": "シャリは岩船産コシヒカリの最上級｜新潟沖の地魚｜水曜定休", "url": "https://sushiiwa-niigata.com/", "precision": "PLACE_LISTING"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.058868, 37.915695]}, "properties": {"name_en": "Sushi Senryu", "name_ja": "寿司 川柳", "cat": "station", "area_en": "Station front, Chuo-ku", "area_ja": "中央区・東大通2（駅前）", "note_en": "'Kiwami' set ¥4,950 · local fish landed that day · rare Niigata sake · closed Sundays", "note_ja": "「極み」セット 4,950円｜その日揚がった地魚｜希少な地酒｜日曜定休", "url": null, "precision": "FULL_ADDRESS_GSI"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.0611846, 37.9230855]}, "properties": {"name_en": "Sado Kaiten Sushi Benkei (Pier Bandai)", "name_ja": "佐渡 廻転寿司 弁慶 ピア万代店", "cat": "casual", "area_en": "Pier Bandai market, Bandaijima, Chuo-ku", "area_ja": "中央区・万代島 ピアBandai内", "note_en": "Conveyor-belt · Sado fish prepared the same day · Sado Koshihikari shari · plates ¥176–880 · closed Wednesdays", "note_ja": "回転寿司｜佐渡の魚を当日仕込み｜シャリは佐渡産コシヒカリ｜1皿 176〜880円｜水曜定休", "url": "https://sado-benkei.com/pier-bandai/", "precision": "POI_OSM"}}]};
+const COLORS = {"counter": "#b3402a", "classic": "#1f5c3d", "station": "#20508c", "casual": "#6b3fa0"};
+const map = L.map('map');
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18, attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+const layer = L.geoJSON(DATA, {
+  pointToLayer: (f, latlng) => L.circleMarker(latlng, {
+    radius: 8, color: '#ffffff', weight: 1.5,
+    fillColor: COLORS[f.properties.cat] || '#333333', fillOpacity: 0.9
+  }),
+  onEachFeature: (f, l) => {
+    const p = f.properties;
+    l.bindPopup(`<strong>${p.name_ja}</strong><br>${p.area_ja}<br>${p.note_ja}` +
+          (p.url ? `<br><a href="${p.url}" target="_blank" rel="noopener">公式サイト</a>` : ""));
+  }
+}).addTo(map);
+map.fitBounds(layer.getBounds().pad(0.12));
+</script>
+<script data-goatcounter="https://niigata2027.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

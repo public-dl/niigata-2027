@@ -57,4 +57,18 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-ja.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi.html"/>
   </url>
+  <url>
+    <loc>https://public-dl.github.io/niigata-2027/sushi-map.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-map-ja.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
+  </url>
+  <url>
+    <loc>https://public-dl.github.io/niigata-2027/sushi-map-ja.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-map-ja.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
+  </url>
 </urlset>
