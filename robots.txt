@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://public-dl.github.io/niigata-2027/sitemap.xml
