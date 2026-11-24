@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carte — Les sushis à Niigata | Niigata 2027</title>
+<meta name="description" content="Une carte interactive de sept restaurants de sushis dans la ville de Niigata, au Japon, où le poisson et le riz sont tous deux locaux — comptoirs omakase de Furumachi, adresses près de la gare et un kaiten dans le marché de Pier Bandai.">
+<link rel="canonical" href="https://public-dl.github.io/niigata-2027/sushi-map-fr.html">
+<link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi-map.html">
+<link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-map-ja.html">
+<link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sushi-map-fr.html">
+<link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi-map.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Niigata 2027">
+<meta property="og:title" content="Carte — Les sushis à Niigata | Niigata 2027">
+<meta property="og:description" content="Une carte interactive de sept restaurants de sushis dans la ville de Niigata, au Japon, où le poisson et le riz sont tous deux locaux — comptoirs omakase de Furumachi, adresses près de la gare et un kaiten dans le marché de Pier Bandai.">
+<meta property="og:url" content="https://public-dl.github.io/niigata-2027/sushi-map-fr.html">
+<meta property="og:image" content="https://public-dl.github.io/niigata-2027/images/kiyotsu.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Carte — Les sushis à Niigata | Niigata 2027">
+<meta name="twitter:description" content="Une carte interactive de sept restaurants de sushis dans la ville de Niigata, au Japon, où le poisson et le riz sont tous deux locaux — comptoirs omakase de Furumachi, adresses près de la gare et un kaiten dans le marché de Pier Bandai.">
+<meta name="twitter:image" content="https://public-dl.github.io/niigata-2027/images/kiyotsu.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Carte — Les sushis à Niigata | Niigata 2027",
+  "url": "https://public-dl.github.io/niigata-2027/sushi-map-fr.html",
+  "description": "Une carte interactive de sept restaurants de sushis dans la ville de Niigata, au Japon, où le poisson et le riz sont tous deux locaux — comptoirs omakase de Furumachi, adresses près de la gare et un kaiten dans le marché de Pier Bandai.",
+  "inLanguage": "fr",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Niigata 2027",
+    "url": "https://public-dl.github.io/niigata-2027/"
+  }
+}
+</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root { --ink:#1d2a24; --accent:#1f5c3d; --vermillion:#b3402a; --paper:#faf7f0; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--paper); line-height:1.65; }
+  .lang { max-width:1060px; margin:0 auto; padding:.8rem 1.2rem 0; text-align:right; font-size:.9rem; }
+  main { max-width:1060px; margin:0 auto; padding:0 1.2rem 3rem; }
+  h1 { font-size:clamp(1.5rem, 4vw, 2.2rem); color:var(--accent); line-height:1.3; }
+  #map { height: 72vh; min-height:420px; border:1px solid #ddd5c3; }
+  .legend { margin:.7rem 0; font-size:.92rem; }
+  .lg { margin-right:1.1rem; white-space:nowrap; }
+  .dot { display:inline-block; width:.8em; height:.8em; border-radius:50%; margin-right:.35em; border:1px solid #fff; box-shadow:0 0 0 1px #999; }
+  a { color:var(--accent); }
+  footer { border-top:1px solid #ddd5c3; margin-top:2rem; padding-top:1.2rem; font-size:.85rem; color:#5c665f; }
+</style>
+</head>
+<body>
+<div class="lang"><a href="sushi-fr.html">← Les sushis à Niigata</a> · <a href="sushi-map.html">English version</a> · <a href="sushi-map-ja.html">日本語版</a></div>
+<main>
+<h1>La carte des sushis : sept restaurants à Niigata</h1>
+<p>Les sept restaurants de <a href='sushi-fr.html'>notre sélection de sushis</a>, placés sur la carte. Quatre se trouvent à Furumachi, l'ancien quartier des geishas et des marchands ; deux sont près de la gare de Niigata ; le dernier est dans le marché de Pier Bandai. Cliquez sur un repère pour les prix et les détails. La plupart des repères sont sur l'adresse exacte du restaurant ; quelques-uns sont placés au niveau de la rue ou du quartier.</p>
+<div class="legend"><span class="lg"><span class="dot" style="background:#b3402a"></span>Comptoirs omakase</span><span class="lg"><span class="dot" style="background:#1f5c3d"></span>Adresses de Furumachi</span><span class="lg"><span class="dot" style="background:#20508c"></span>Près de la gare</span><span class="lg"><span class="dot" style="background:#6b3fa0"></span>Kaiten (tapis roulant)</span></div>
+<div id="map"></div>
+<p style="font-size:.85rem;color:#5c665f">Adresses et informations vérifiées en novembre 2026 sur les sites officiels des restaurants, Tabelog et la carte « Kiwami » de l'Association des sushi de la préfecture de Niigata. Fond de carte : Esri World Street Map, noms de lieux en japonais et en anglais ; données cartographiques © OpenStreetMap contributors. Les données sont aussi publiées au format <a href="sushi.geojson">sushi.geojson</a>.</p>
+<footer>
+  <p>Page du guide <a href="fr.html">Niigata 2027 — l'endroit choisi par deux magazines de voyage</a>, un guide indépendant réalisé à Niigata, au Japon.</p>
+  <p>Powered by <a href="https://public-dl.github.io/wooltech/">WoolTech</a></p>
+</footer>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const DATA = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.046249, 37.924114]}, "properties": {"name_en": "Kyodai Zushi", "name_ja": "兄弟寿し", "cat": "counter", "area_en": "Furumachi / Nabeyacho-dori, Chuo-ku", "area_ja": "中央区・東堀通8（鍋茶屋通り）", "note_en": "Omakase only, dinner only · guide ¥20,000–29,999 · Tabelog Award 2026 Silver", "note_ja": "夜のみ・おまかせのみ｜目安 20,000〜29,999円｜食べログアワード2026 Silver", "area_fr": "Furumachi / Nabeyacho-dori, Chuo-ku", "note_fr": "Omakase uniquement, dîner uniquement · repère 20 000–29 999 ¥ · Tabelog Award 2026 Silver", "url": null, "precision": "STREET_GSI"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.047107, 37.922373]}, "properties": {"name_en": "Tokiwa Zushi (Niigata)", "name_ja": "登喜和鮨 新潟店", "cat": "counter", "area_en": "Honcho-dori, Furumachi, Chuo-ku", "area_ja": "中央区・本町通り7（古町）", "note_en": "Full course ¥28,600 · nigiri-only lunch (Thu & Fri) from ¥11,000 · ~99% Niigata ingredients", "note_ja": "フルコース 28,600円｜握りのみランチ（木・金）11,000円から｜食材の約99％が新潟産", "area_fr": "Honcho-dori, Furumachi, Chuo-ku", "note_fr": "Menu complet 28 600 ¥ · déjeuner nigiri (jeu. & ven.) dès 11 000 ¥ · ~99 % d’ingrédients de Niigata", "url": "https://tokiwasushi.top", "precision": "DISTRICT_OSM"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.0461681, 37.9247868]}, "properties": {"name_en": "Marui", "name_ja": "鮨・割烹 丸伊", "cat": "classic", "area_en": "Higashibori-dori, Chuo-ku", "area_ja": "中央区・東堀通8", "note_en": "50 years in the geisha district · 'Kiwami' set ¥4,950 · lunch from around ¥3,000", "note_ja": "花街で50年｜「極み」セット 4,950円｜ランチ 3,000円台から", "area_fr": "Higashibori-dori, Chuo-ku", "note_fr": "50 ans dans le quartier des geishas · menu « Kiwami » 4 950 ¥ · déjeuner dès ~3 000 ¥", "url": "https://sushi-marui.com/", "precision": "POI_OSM"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.04608, 37.92502]}, "properties": {"name_en": "Minato Sushi", "name_ja": "港すし", "cat": "classic", "area_en": "Furumachi-dori 9, Chuo-ku", "area_ja": "中央区・古町通9", "note_en": "Furumachi institution since 1933 · Niigata rice and Niigata fish · closed Mondays", "note_ja": "1933年創業の古町の老舗｜米も魚も新潟のもの｜月曜定休", "area_fr": "Furumachi-dori 9, Chuo-ku", "note_fr": "Adresse de Furumachi depuis 1933 · riz et poisson de Niigata · fermé le lundi", "url": "https://3710-sushi.com/", "precision": "PLACE_LISTING"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.06121, 37.91614]}, "properties": {"name_en": "Sushi Iwa", "name_ja": "すしいわ", "cat": "station", "area_en": "Higashi-Odori, 5 min from Niigata Station", "area_ja": "中央区・東大通2（新潟駅から徒歩5分）", "note_en": "Shari of top-grade Iwafune Koshihikari · fish from the Niigata coast · closed Wednesdays", "note_ja": "シャリは岩船産コシヒカリの最上級｜新潟沖の地魚｜水曜定休", "area_fr": "Higashi-Odori, à 5 min de la gare de Niigata", "note_fr": "Shari de Koshihikari d’Iwafune haut de gamme · poissons de la côte de Niigata · fermé le mercredi", "url": "https://sushiiwa-niigata.com/", "precision": "PLACE_LISTING"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.058868, 37.915695]}, "properties": {"name_en": "Sushi Senryu", "name_ja": "寿司 川柳", "cat": "station", "area_en": "Station front, Chuo-ku", "area_ja": "中央区・東大通2（駅前）", "note_en": "'Kiwami' set ¥4,950 · local fish landed that day · rare Niigata sake · closed Sundays", "note_ja": "「極み」セット 4,950円｜その日揚がった地魚｜希少な地酒｜日曜定休", "area_fr": "Devant la gare, Chuo-ku", "note_fr": "Menu « Kiwami » 4 950 ¥ · poissons débarqués le jour même · sakés rares de Niigata · fermé le dimanche", "url": null, "precision": "FULL_ADDRESS_GSI"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.0611846, 37.9230855]}, "properties": {"name_en": "Sado Kaiten Sushi Benkei (Pier Bandai)", "name_ja": "佐渡 廻転寿司 弁慶 ピア万代店", "cat": "casual", "area_en": "Pier Bandai market, Bandaijima, Chuo-ku", "area_ja": "中央区・万代島 ピアBandai内", "note_en": "Conveyor-belt · Sado fish prepared the same day · Sado Koshihikari shari · plates ¥176–880 · closed Wednesdays", "note_ja": "回転寿司｜佐渡の魚を当日仕込み｜シャリは佐渡産コシヒカリ｜1皿 176〜880円｜水曜定休", "area_fr": "Marché de Pier Bandai, Bandaijima, Chuo-ku", "note_fr": "Kaiten · poissons de Sado préparés le jour même · shari 100 % Koshihikari de Sado · assiettes 176–880 ¥ · fermé le mercredi", "url": "https://sado-benkei.com/pier-bandai/", "precision": "POI_OSM"}}]};
+const COLORS = {"counter": "#b3402a", "classic": "#1f5c3d", "station": "#20508c", "casual": "#6b3fa0"};
+const map = L.map('map');
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+  maxZoom: 18, attribution: 'Esri, OpenStreetMap contributors'
+}).addTo(map);
+const layer = L.geoJSON(DATA, {
+  pointToLayer: (f, latlng) => L.circleMarker(latlng, {
+    radius: 8, color: '#ffffff', weight: 1.5,
+    fillColor: COLORS[f.properties.cat] || '#333333', fillOpacity: 0.9
+  }),
+  onEachFeature: (f, l) => {
+    const p = f.properties;
+    l.bindPopup(`<strong>${p.name_en}</strong><br><span style="color:#5c665f">${p.name_ja}</span><br>${p.area_fr}<br>${p.note_fr}` +
+          (p.url ? `<br><a href="${p.url}" target="_blank" rel="noopener">Site officiel</a>` : ""));
+  }
+}).addTo(map);
+map.fitBounds(layer.getBounds().pad(0.12));
+</script>
+<script data-goatcounter="https://niigata2027.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
