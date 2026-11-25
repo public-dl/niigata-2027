@@ -426,34 +426,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.045395,
-     37.924217
-    ]
-   },
-   "properties": {
-    "slug": "nene",
-    "genre": "jp",
-    "ja": "古町寧々",
-    "en": "Furumachi Nene",
-    "addr": "新潟市中央区古町通8番町",
-    "note_ja": "佐渡の鮮魚と地酒30種以上",
-    "note_en": "Fresh Sado fish and more than 30 local sakes",
-    "note_fr": "Poissons frais de Sado et plus de 30 sakés locaux",
-    "hours": [
-     "17:00–22:00（月曜休）",
-     "17:00–22:00 (closed Mon)",
-     "17:00–22:00 (fermé lun.)"
-    ],
-    "url": "https://furumachinene.com",
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.046234,
      37.924114
     ]
@@ -919,6 +891,90 @@
      "—",
      "—",
      "—"
+    ],
+    "url": null,
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.0466,
+     37.925362
+    ]
+   },
+   "properties": {
+    "slug": "takai",
+    "genre": "jp",
+    "ja": "たか井",
+    "en": "Takai",
+    "addr": "新潟市中央区東堀通9番町1401",
+    "note_ja": "夫婦で営む小料理屋、うなぎの蒲焼・白焼きが看板",
+    "note_en": "A small husband-and-wife koryori house whose eel — kabayaki and shirayaki — is the draw",
+    "note_fr": "Petit restaurant tenu par un couple, célèbre pour son anguille en kabayaki et shirayaki",
+    "hours": [
+     "17:30–22:00（日・祝休）",
+     "17:30–22:00 (closed Sun & holidays)",
+     "17:30–22:00 (fermé dim. et fériés)"
+    ],
+    "url": null,
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.0466,
+     37.925362
+    ]
+   },
+   "properties": {
+    "slug": "kakimasa",
+    "genre": "jp",
+    "ja": "かき正",
+    "en": "Kakimasa",
+    "addr": "新潟市中央区東堀通9番町1407",
+    "note_ja": "1929年創業、広島のかきと下関のふくを看板にする老舗料亭",
+    "note_en": "Founded in 1929, a long-standing ryotei built on Hiroshima oysters and Shimonoseki fugu",
+    "note_fr": "Ryōtei fondé en 1929, réputé pour les huîtres d'Hiroshima et le fugu de Shimonoseki",
+    "hours": [
+     "16:00–22:30（日曜休）",
+     "16:00–22:30 (closed Sun)",
+     "16:00–22:30 (fermé dim.)"
+    ],
+    "url": "http://www.info-niigata.or.jp/gourmet/kakimasa/",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.045135,
+     37.924313
+    ]
+   },
+   "properties": {
+    "slug": "acchan",
+    "genre": "jp",
+    "ja": "きたきた あっちゃん",
+    "en": "Kitakita Acchan",
+    "addr": "新潟市中央区古町通8番町1487 三光ビル3F",
+    "note_ja": "2026年春オープンのおばんざい居酒屋、若い店主の手作り料理と長野の酒",
+    "note_en": "An obanzai izakaya opened in spring 2026 — a young owner's home-made dishes and Nagano sake",
+    "note_fr": "Izakaya d'obanzai ouvert au printemps 2026 — cuisine maison d'une jeune cheffe et sakés de Nagano",
+    "hours": [
+     "18:00–23:00（日・祝休）",
+     "18:00–23:00 (closed Sun & holidays)",
+     "18:00–23:00 (fermé dim. et fériés)"
     ],
     "url": null,
     "rec": null,
@@ -1826,34 +1882,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.045807,
-     37.925697
-    ]
-   },
-   "properties": {
-    "slug": "gabvino",
-    "genre": "bar",
-    "ja": "ガブビーノ",
-    "en": "GABVINO",
-    "addr": "新潟市中央区古町通9番町",
-    "note_ja": "トンテキとワインのダイナー",
-    "note_en": "A diner of pork steak and wine",
-    "note_fr": "Diner : steak de porc et vin",
-    "hours": [
-     "18:00–翌2:00（日曜休）",
-     "18:00–02:00 (closed Sun)",
-     "18:00–02:00 (fermé dim.)"
-    ],
-    "url": "https://www.facebook.com/GABVINO",
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.0466,
      37.925362
     ]
@@ -2377,34 +2405,6 @@
      "11:00–14:30, 17:30–23:00 (fermé lun.)"
     ],
     "url": "https://osteriaporcorosso.owst.jp/",
-    "rec": null,
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.045944,
-     37.923084
-    ]
-   },
-   "properties": {
-    "slug": "gioiamia",
-    "genre": "west",
-    "ja": "ジョイアミーア",
-    "en": "Gioia Mia",
-    "addr": "新潟市中央区東堀通7-1016-1 1F",
-    "note_ja": "ライブ音楽も楽しめるイタリアン",
-    "note_en": "Italian food with live music",
-    "note_fr": "Cuisine italienne avec musique live",
-    "hours": [
-     "予約制中心",
-     "Mostly by reservation",
-     "Principalement sur réservation"
-    ],
-    "url": "https://niigata-gioiamia.com/",
     "rec": null,
     "precision": "full"
    }
