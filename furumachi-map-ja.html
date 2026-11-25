@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>古町100店マップ | Niigata 2027</title>
-<meta name="description" content="新潟市・古町の飲食店100店をジャンル別に色分けした地図。割烹・居酒屋、寿司、バー、蕎麦、フレンチとイタリアン。筆者のおすすめには★印。">
+<meta name="description" content="新潟市・古町の飲食店100店をジャンル別に色分けした地図。割烹・居酒屋、寿司、バー、蕎麦、フレンチとイタリアン。">
 <link rel="canonical" href="https://public-dl.github.io/niigata-2027/furumachi-map-ja.html">
 <link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/furumachi-map.html">
 <link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/furumachi-map-ja.html">
@@ -13,13 +13,13 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Niigata 2027">
 <meta property="og:title" content="古町100店マップ | Niigata 2027">
-<meta property="og:description" content="新潟市・古町の飲食店100店をジャンル別に色分けした地図。割烹・居酒屋、寿司、バー、蕎麦、フレンチとイタリアン。筆者のおすすめには★印。">
+<meta property="og:description" content="新潟市・古町の飲食店100店をジャンル別に色分けした地図。割烹・居酒屋、寿司、バー、蕎麦、フレンチとイタリアン。">
 <meta property="og:url" content="https://public-dl.github.io/niigata-2027/furumachi-map-ja.html">
 <meta property="og:image" content="https://public-dl.github.io/niigata-2027/images/kiyotsu.jpg">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="古町100店マップ | Niigata 2027">
-<meta name="twitter:description" content="新潟市・古町の飲食店100店をジャンル別に色分けした地図。割烹・居酒屋、寿司、バー、蕎麦、フレンチとイタリアン。筆者のおすすめには★印。">
+<meta name="twitter:description" content="新潟市・古町の飲食店100店をジャンル別に色分けした地図。割烹・居酒屋、寿司、バー、蕎麦、フレンチとイタリアン。">
 <meta name="twitter:image" content="https://public-dl.github.io/niigata-2027/images/kiyotsu.jpg">
 <script type="application/ld+json">
 {
@@ -27,7 +27,7 @@
   "@type": "WebPage",
   "name": "古町100店マップ | Niigata 2027",
   "url": "https://public-dl.github.io/niigata-2027/furumachi-map-ja.html",
-  "description": "新潟市・古町の飲食店100店をジャンル別に色分けした地図。割烹・居酒屋、寿司、バー、蕎麦、フレンチとイタリアン。筆者のおすすめには★印。",
+  "description": "新潟市・古町の飲食店100店をジャンル別に色分けした地図。割烹・居酒屋、寿司、バー、蕎麦、フレンチとイタリアン。",
   "inLanguage": "ja",
   "isPartOf": {
     "@type": "WebSite",
@@ -56,7 +56,7 @@
 <div class="lang"><a href="furumachi-ja.html">← 古町100店</a> · <a href="furumachi-map.html">English version</a> · <a href="furumachi-map-fr.html">Version française</a></div>
 <main>
 <h1>古町100店マップ</h1>
-<p><a href='furumachi-ja.html'>古町100店の名簿</a>の全店を地図に落としました。ピンを押すと、店の一言・営業時間目安・公式サイトが表示されます。色はジャンル別、★は筆者のおすすめです。58店は番地まで特定した位置、それ以外は通り・番町レベルの位置ですので、ピンは「この通りのこのあたり」とお考えください。</p>
+<p><a href='furumachi-ja.html'>古町100店の名簿</a>の全店を地図に落としました。ピンを押すと、店の一言・営業時間目安・公式サイトが表示されます。色はジャンル別です。58店は番地まで特定した位置、それ以外は通り・番町レベルの位置ですので、ピンは「この通りのこのあたり」とお考えください。</p>
 <div class="legend"><span class="lg"><span class="dot" style="background:#1f5c3d"></span>日本料理・割烹・居酒屋</span><span class="lg"><span class="dot" style="background:#b3402a"></span>寿司</span><span class="lg"><span class="dot" style="background:#6b3fa0"></span>バー</span><span class="lg"><span class="dot" style="background:#20508c"></span>蕎麦・麺</span><span class="lg"><span class="dot" style="background:#b8860b"></span>フレンチ・イタリアン・洋食</span><span class="lg"><span class="dot" style="background:#555f58"></span>焼鳥・その他</span></div>
 <div id="map"></div>
 <p style="font-size:.85rem;color:#5c665f">住所は各店の公式サイト、食べログ、地元ガイドで2026年11月に確認。座標は国土地理院の住所検索による。地図 © OpenStreetMap contributors。 プロットしたデータは <a href="furumachi.geojson">furumachi.geojson</a> でも公開しています。</p>
@@ -80,7 +80,7 @@ const layer = L.geoJSON(DATA, {
   }),
   onEachFeature: (f, l) => {
     const p = f.properties;
-    l.bindPopup(`<strong>${p.ja}</strong>${p.rec ? ' ★' : ''}<br>${p.note_ja}<br>${p.hours[0]}` +
+    l.bindPopup(`<strong>${p.ja}</strong><br>${p.note_ja}<br>${p.hours[0]}` +
           (p.url ? `<br><a href="${p.url}" target="_blank" rel="noopener">公式サイト等</a>` : ""));
   }
 }).addTo(map);

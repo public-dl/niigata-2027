@@ -56,7 +56,7 @@
 <div class="lang"><a href="furumachi.html">← Furumachi: 100 places</a> · <a href="furumachi-map-ja.html">日本語版</a> · <a href="furumachi-map-fr.html">Version française</a></div>
 <main>
 <h1>The Furumachi map: one hundred places to eat and drink</h1>
-<p>All 100 places from <a href='furumachi.html'>the Furumachi directory</a>, plotted. Click a pin for the shop's note, hours and website. Pins are coloured by genre; shops the author recommends carry a star. 58 pins sit on the shop's exact street number; the rest are placed at street or block level, so treat each pin as “on this street, around here”.</p>
+<p>All 100 places from <a href='furumachi.html'>the Furumachi directory</a>, plotted. Click a pin for the shop's note, hours and website. Pins are coloured by genre. 58 pins sit on the shop's exact street number; the rest are placed at street or block level, so treat each pin as “on this street, around here”.</p>
 <div class="legend"><span class="lg"><span class="dot" style="background:#1f5c3d"></span>Japanese / kappo / izakaya</span><span class="lg"><span class="dot" style="background:#b3402a"></span>Sushi</span><span class="lg"><span class="dot" style="background:#6b3fa0"></span>Bars</span><span class="lg"><span class="dot" style="background:#20508c"></span>Soba & noodles</span><span class="lg"><span class="dot" style="background:#b8860b"></span>French / Italian / Western</span><span class="lg"><span class="dot" style="background:#555f58"></span>Yakitori & more</span></div>
 <div id="map"></div>
 <p style="font-size:.85rem;color:#5c665f">Addresses checked November 2026 against official websites, Tabelog and local guides; coordinates from Japan's Geospatial Information Authority address search. Base map: Esri World Street Map, with place names in Japanese and English; map data © OpenStreetMap contributors. The plotted data is also published as <a href="furumachi.geojson">furumachi.geojson</a>.</p>
@@ -80,7 +80,7 @@ const layer = L.geoJSON(DATA, {
   }),
   onEachFeature: (f, l) => {
     const p = f.properties;
-    l.bindPopup(`<strong>${p.en}</strong>${p.rec ? ' ★' : ''}<br><span style="color:#5c665f">${p.ja}</span><br>${p.note_en}<br>${p.hours[1]}` +
+    l.bindPopup(`<strong>${p.en}</strong><br><span style="color:#5c665f">${p.ja}</span><br>${p.note_en}<br>${p.hours[1]}` +
           (p.url ? `<br><a href="${p.url}" target="_blank" rel="noopener">Official website</a>` : ""));
   }
 }).addTo(map);

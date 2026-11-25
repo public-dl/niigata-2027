@@ -56,7 +56,7 @@
 <div class="lang"><a href="furumachi-fr.html">← Furumachi : 100 adresses</a> · <a href="furumachi-map.html">English version</a> · <a href="furumachi-map-ja.html">日本語版</a></div>
 <main>
 <h1>La carte de Furumachi : cent adresses pour manger et boire</h1>
-<p>Les 100 adresses de <a href='furumachi-fr.html'>l'annuaire de Furumachi</a>, placées sur la carte. Cliquez sur un repère pour la note, les horaires et le site de l'établissement. Les repères sont colorés par genre ; les adresses recommandées par l'auteur portent une étoile. 58 repères sont sur le numéro exact de l'établissement ; les autres sont placés au niveau de la rue ou du pâté de maisons — considérez chaque repère comme « dans cette rue, par ici ».</p>
+<p>Les 100 adresses de <a href='furumachi-fr.html'>l'annuaire de Furumachi</a>, placées sur la carte. Cliquez sur un repère pour la note, les horaires et le site de l'établissement. Les repères sont colorés par genre. 58 repères sont sur le numéro exact de l'établissement ; les autres sont placés au niveau de la rue ou du pâté de maisons — considérez chaque repère comme « dans cette rue, par ici ».</p>
 <div class="legend"><span class="lg"><span class="dot" style="background:#1f5c3d"></span>Japonais / kappo / izakaya</span><span class="lg"><span class="dot" style="background:#b3402a"></span>Sushis</span><span class="lg"><span class="dot" style="background:#6b3fa0"></span>Bars</span><span class="lg"><span class="dot" style="background:#20508c"></span>Soba & nouilles</span><span class="lg"><span class="dot" style="background:#b8860b"></span>Français / italien / occidental</span><span class="lg"><span class="dot" style="background:#555f58"></span>Yakitori & autres</span></div>
 <div id="map"></div>
 <p style="font-size:.85rem;color:#5c665f">Adresses vérifiées en novembre 2026 sur les sites officiels, Tabelog et des guides locaux ; coordonnées issues de la recherche d'adresses de l'Autorité d'information géospatiale du Japon. Fond de carte : Esri World Street Map, noms de lieux en japonais et en anglais ; données cartographiques © OpenStreetMap contributors. Les données sont aussi publiées au format <a href="furumachi.geojson">furumachi.geojson</a>.</p>
@@ -80,7 +80,7 @@ const layer = L.geoJSON(DATA, {
   }),
   onEachFeature: (f, l) => {
     const p = f.properties;
-    l.bindPopup(`<strong>${p.en}</strong>${p.rec ? ' ★' : ''}<br><span style="color:#5c665f">${p.ja}</span><br>${p.note_fr}<br>${p.hours[2]}` +
+    l.bindPopup(`<strong>${p.en}</strong><br><span style="color:#5c665f">${p.ja}</span><br>${p.note_fr}<br>${p.hours[2]}` +
           (p.url ? `<br><a href="${p.url}" target="_blank" rel="noopener">Site officiel</a>` : ""));
   }
 }).addTo(map);
