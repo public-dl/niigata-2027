@@ -2330,34 +2330,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.045135,
-     37.922382
-    ]
-   },
-   "properties": {
-    "slug": "porcorosso",
-    "genre": "west",
-    "ja": "オステリア ポルコロッソ",
-    "en": "Osteria Porco Rosso",
-    "addr": "新潟市中央区古町通7-995 2F",
-    "note_ja": "南欧風イタリアン",
-    "note_en": "Southern-European Italian cooking",
-    "note_fr": "Cuisine italienne d'Europe du Sud",
-    "hours": [
-     "11:00–14:30／17:30–23:00（月曜休）",
-     "11:00–14:30, 17:30–23:00 (closed Mon)",
-     "11:00–14:30, 17:30–23:00 (fermé lun.)"
-    ],
-    "url": "https://osteriaporcorosso.owst.jp/",
-    "rec": null,
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.041245,
      37.918983
     ]
@@ -2433,6 +2405,34 @@
      "11:30–15:00, 17:30–22:00 (fermé mar.)"
     ],
     "url": "https://tabelog.com/niigata/A1501/A150101/15025156/",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.03714,
+     37.924088
+    ]
+   },
+   "properties": {
+    "slug": "bacco",
+    "genre": "west",
+    "ja": "オステリアバッコ",
+    "en": "Osteria BACCO",
+    "addr": "新潟市中央区西大畑町591-1",
+    "note_ja": "どっぺり坂のたもとのイタリアン。手打ちパスタと新潟の食材のコース、前日までの要予約",
+    "note_en": "Italian courses of handmade pasta and Niigata ingredients at the foot of Dopperi-zaka; book by the day before",
+    "note_fr": "Cuisine italienne au pied de la côte Dopperi-zaka : pâtes maison et produits de Niigata ; réservation la veille",
+    "hours": [
+     "12:00–15:00／18:00–22:30（火・水曜休、要予約）",
+     "12:00–15:00 / 18:00–22:30 (closed Tue & Wed; reservations required)",
+     "12:00–15:00 / 18:00–22:30 (fermé mar. et mer. ; réservation requise)"
+    ],
+    "url": "https://www.osteria-bacco.com/",
     "rec": null,
     "precision": "full"
    }
