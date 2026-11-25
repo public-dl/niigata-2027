@@ -1014,6 +1014,34 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     139.0466,
+     37.925362
+    ]
+   },
+   "properties": {
+    "slug": "kei",
+    "genre": "jp",
+    "ja": "慶",
+    "en": "Kei",
+    "addr": "新潟市中央区東堀通9番町1407",
+    "note_ja": "お通しまで抜かりない、予約不可の日本料理店",
+    "note_en": "A Japanese kitchen famed even for its appetisers; no reservations taken",
+    "note_fr": "Cuisine japonaise réputée jusque pour ses amuse-bouches ; sans réservation",
+    "hours": [
+     "18:00–23:00（日・祝休）",
+     "18:00–23:00 (closed Sun & holidays)",
+     "18:00–23:00 (fermé dim. et fériés)"
+    ],
+    "url": "https://tabelog.com/niigata/A1501/A150101/15002752/",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      139.046249,
      37.924114
     ]
@@ -2489,34 +2517,6 @@
      "18:30–03:00 (fermé dim.)"
     ],
     "url": "https://sekitori-shop.com/",
-    "rec": null,
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.042038,
-     37.917828
-    ]
-   },
-   "properties": {
-    "slug": "kisui",
-    "genre": "other",
-    "ja": "炭火焼酒房 喜酔",
-    "en": "Sumibiyaki Shubō Kisui",
-    "addr": "新潟市中央区古町通3-648",
-    "note_ja": "新川小路の隠れ家的炭火焼鳥",
-    "note_en": "Hideaway charcoal yakitori in the Shinkawa lane",
-    "note_fr": "Yakitori au charbon, caché dans la ruelle Shinkawa",
-    "hours": [
-     "18:00–翌1:00（日・祝休）",
-     "18:00–01:00 (closed Sun & holidays)",
-     "18:00–01:00 (fermé dim. et fériés)"
-    ],
-    "url": null,
     "rec": null,
     "precision": "full"
    }
