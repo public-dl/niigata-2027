@@ -230,34 +230,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.045013,
-     37.925854
-    ]
-   },
-   "properties": {
-    "slug": "oko",
-    "genre": "jp",
-    "ja": "割烹 おお江",
-    "en": "Kappō Ōkō",
-    "addr": "新潟市中央区西堀前通9番町",
-    "note_ja": "平日のみ営業の小さな割烹",
-    "note_en": "A tiny kappo open on weekdays only",
-    "note_fr": "Minuscule kappo ouvert uniquement en semaine",
-    "hours": [
-     "月–金 18:00–22:00",
-     "Mon–Fri 18:00–22:00",
-     "lun.–ven. 18:00–22:00"
-    ],
-    "url": null,
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.04425,
      37.92284
     ]
@@ -650,34 +622,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.047516,
-     37.923893
-    ]
-   },
-   "properties": {
-    "slug": "asai",
-    "genre": "jp",
-    "ja": "あさい",
-    "en": "Asai",
-    "addr": "新潟市中央区本町通8番町",
-    "note_ja": "本町通の小料理・居酒屋",
-    "note_en": "A small koryori-izakaya on Honcho-dori",
-    "note_fr": "Petit koryori-izakaya sur Honcho-dori",
-    "hours": [
-     "17:00–",
-     "From 17:00",
-     "À partir de 17:00"
-    ],
-    "url": "https://retty.me/area/PRE15/ARE157/SUB49502/100000464867/",
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.046173,
      37.926109
     ]
@@ -892,7 +836,7 @@
      "—",
      "—"
     ],
-    "url": null,
+    "url": "https://www.hyoutei-niigata.com/",
     "rec": null,
     "precision": "full"
    }
@@ -920,7 +864,7 @@
      "17:30–22:00 (closed Sun & holidays)",
      "17:30–22:00 (fermé dim. et fériés)"
     ],
-    "url": null,
+    "url": "https://tabelog.com/niigata/A1501/A150101/15006722/",
     "rec": null,
     "precision": "full"
    }
@@ -976,7 +920,7 @@
      "18:00–23:00 (closed Sun & holidays)",
      "18:00–23:00 (fermé dim. et fériés)"
     ],
-    "url": null,
+    "url": "https://tabelog.com/niigata/A1501/A150101/15025466/",
     "rec": null,
     "precision": "full"
    }
@@ -1005,6 +949,62 @@
      "11:30–14:00, 17:00–21:00 (fermé mar.)"
     ],
     "url": "https://inakayaniigata.owst.jp/",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.0466,
+     37.925362
+    ]
+   },
+   "properties": {
+    "slug": "machiya",
+    "genre": "jp",
+    "ja": "町家",
+    "en": "Machiya",
+    "addr": "新潟市中央区東堀通9番町1401",
+    "note_ja": "町家の佇まいで味わう日本料理",
+    "note_en": "Japanese cooking served in a machiya townhouse",
+    "note_fr": "Cuisine japonaise dans une maison de ville traditionnelle",
+    "hours": [
+     "18:00–24:00（月–土・祝前日）",
+     "18:00–24:00 (Mon–Sat & holiday eves)",
+     "18:00–24:00 (lun.–sam. et veilles de fêtes)"
+    ],
+    "url": null,
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.0466,
+     37.925362
+    ]
+   },
+   "properties": {
+    "slug": "gin",
+    "genre": "jp",
+    "ja": "吟",
+    "en": "Gin",
+    "addr": "新潟市中央区東堀通9番町1402-2 イーストモート1 1F",
+    "note_ja": "純米燗酒と旬の肴、締めは自家製の十割そば",
+    "note_en": "Warmed junmai sake and seasonal dishes, finished with house-made 100% buckwheat soba",
+    "note_fr": "Saké junmai servi chaud et plats de saison, pour finir des soba maison 100 % sarrasin",
+    "hours": [
+     "17:00–22:00（日曜は15:00–21:00、不定休）",
+     "17:00–22:00 (Sun 15:00–21:00; irregular holidays)",
+     "17:00–22:00 (dim. 15:00–21:00 ; fermetures irrégulières)"
+    ],
+    "url": null,
     "rec": null,
     "precision": "full"
    }
@@ -1759,34 +1759,6 @@
      "18:00–翌1:00（月曜休）",
      "18:00–01:00 (closed Mon)",
      "18:00–01:00 (fermé lun.)"
-    ],
-    "url": null,
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.045807,
-     37.925697
-    ]
-   },
-   "properties": {
-    "slug": "tsubaki",
-    "genre": "bar",
-    "ja": "ワインバー・ツバキ",
-    "en": "WINE BAR TSUBAKI",
-    "addr": "新潟市中央区古町通9番町",
-    "note_ja": "牡蠣とワインの隠れ家バー",
-    "note_en": "A hideaway bar of oysters and wine",
-    "note_fr": "Bar caché : huîtres et vin",
-    "hours": [
-     "月–土 18:30–翌2:00",
-     "Mon–Sat 18:30–02:00",
-     "lun.–sam. 18:30–02:00"
     ],
     "url": null,
     "rec": null,
@@ -2795,6 +2767,34 @@
      "16:00–24:00（日曜休）",
      "16:00–24:00 (closed Sun)",
      "16:00–24:00 (fermé dim.)"
+    ],
+    "url": null,
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.046097,
+     37.925823
+    ]
+   },
+   "properties": {
+    "slug": "keiryu",
+    "genre": "other",
+    "ja": "中国料理 慶龍飯店",
+    "en": "Keiryū Hanten",
+    "addr": "新潟市中央区古町通9番町1464",
+    "note_ja": "古町で40年愛される町中華、ニンニクの効いた餃子が名物",
+    "note_en": "A neighbourhood Chinese kitchen loved in Furumachi for over 40 years; the garlic gyoza are the signature",
+    "note_fr": "Cuisine chinoise de quartier aimée à Furumachi depuis plus de 40 ans ; les gyoza à l'ail sont la signature",
+    "hours": [
+     "17:00–21:00（日祝休）",
+     "17:00–21:00 (closed Sun & holidays)",
+     "17:00–21:00 (fermé dim. et fériés)"
     ],
     "url": null,
     "rec": null,
