@@ -986,6 +986,34 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     139.045944,
+     37.92527
+    ]
+   },
+   "properties": {
+    "slug": "inakaya",
+    "genre": "jp",
+    "ja": "田舎家",
+    "en": "Inakaya",
+    "addr": "新潟市中央区古町通9-1457",
+    "note_ja": "わっぱ飯の元祖、1956年創業の郷土料理店",
+    "note_en": "The original home of wappa-meshi — Niigata's steamed-rice classic — a local-cuisine house founded in 1956",
+    "note_fr": "La maison d'origine du wappa-meshi, le riz cuit à la vapeur emblématique de Niigata — cuisine locale depuis 1956",
+    "hours": [
+     "11:30–14:00／17:00–21:00（火曜休）",
+     "11:30–14:00, 17:00–21:00 (closed Tue)",
+     "11:30–14:00, 17:00–21:00 (fermé mar.)"
+    ],
+    "url": "https://inakayaniigata.owst.jp/",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      139.046249,
      37.924114
     ]
@@ -1563,34 +1591,6 @@
      "19:00–翌3:00（日曜休）",
      "19:00–03:00 (closed Sun)",
      "19:00–03:00 (fermé dim.)"
-    ],
-    "url": null,
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.045334,
-     37.920921
-    ]
-   },
-   "properties": {
-    "slug": "liffey",
-    "genre": "bar",
-    "ja": "The Liffey Tavern 2 東堀店",
-    "en": "The Liffey Tavern 2 (Higashibori)",
-    "addr": "新潟市中央区東堀通6番町",
-    "note_ja": "古町のアイリッシュパブ",
-    "note_en": "Furumachi's Irish pub",
-    "note_fr": "Le pub irlandais de Furumachi",
-    "hours": [
-     "18:00–翌1:00（金・土–翌3:00）",
-     "18:00–01:00 (Fri & Sat to 03:00)",
-     "18:00–01:00 (ven. et sam. jusqu'à 03:00)"
     ],
     "url": null,
     "rec": null,
