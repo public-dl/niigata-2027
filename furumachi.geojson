@@ -166,7 +166,7 @@
     ],
     "url": "https://www.nabedyaya.co.jp/",
     "rec": "money",
-    "precision": "district"
+    "precision": "full"
    }
   },
   {
@@ -194,34 +194,6 @@
     ],
     "url": "https://www.ikinariya.co.jp/",
     "rec": "money",
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.045807,
-     37.925697
-    ]
-   },
-   "properties": {
-    "slug": "daimaru",
-    "genre": "jp",
-    "ja": "割烹 大丸",
-    "en": "Kappō Daimaru",
-    "addr": "新潟市中央区古町通9番町",
-    "note_ja": "明治18年創業、佐渡沖の魚の会席",
-    "note_en": "Founded 1885; kaiseki of fish from the waters off Sado",
-    "note_fr": "Fondé en 1885 ; kaiseki de poissons pêchés au large de Sado",
-    "hours": [
-     "17:00–22:00（要予約）",
-     "17:00–22:00 (book ahead)",
-     "17:00–22:00 (réserver)"
-    ],
-    "url": null,
-    "rec": null,
     "precision": "district"
    }
   },
@@ -342,8 +314,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.046738,
-     37.925652
+     139.0466,
+     37.925362
     ]
    },
    "properties": {
@@ -351,18 +323,46 @@
     "genre": "jp",
     "ja": "あがの割烹 千原六助",
     "en": "Agano Kappō Chihara Rokusuke",
-    "addr": "新潟市中央区東堀通9番町",
-    "note_ja": "阿賀野市の食材にこだわる割烹",
-    "note_en": "Kappo built on ingredients from Agano City",
-    "note_fr": "Kappo voué aux produits de la ville d'Agano",
+    "addr": "新潟市中央区東堀通9-1407-3 プロジェクト3 1F",
+    "note_ja": "阿賀野市の食材・器・調味料にこだわる割烹、2019年開店、ガストロノミーアワード2026ブロンズ",
+    "note_en": "Kappo devoted to Agano City produce, tableware and seasonings; opened 2019; Niigata Gastronomy Award 2026 Bronze",
+    "note_fr": "Kappo voué aux produits, à la vaisselle et aux assaisonnements d'Agano ; ouvert en 2019 ; Niigata Gastronomy Award 2026, Bronze",
     "hours": [
-     "18:00–23:00",
-     "18:00–23:00",
-     "18:00–23:00"
+     "18:00–22:30（日曜休）",
+     "18:00–22:30 (closed Sun)",
+     "18:00–22:30 (fermé dim.)"
     ],
-    "url": null,
+    "url": "https://www.instagram.com/chihara.rokusuke/",
     "rec": null,
-    "precision": "district"
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.045547,
+     37.92384
+    ]
+   },
+   "properties": {
+    "slug": "ebinohige",
+    "genre": "jp",
+    "ja": "越佐の旬と美酒 海老の髭",
+    "en": "Ebi no Hige",
+    "addr": "新潟市中央区古町通8-1433-2",
+    "note_ja": "明治期の蔵を改装した割烹、佐渡の海鮮と地酒（よね蔵グループ）",
+    "note_en": "Kappo in a converted Meiji-era storehouse; Sado seafood and local sake (Yonekura Group)",
+    "note_fr": "Kappo dans un entrepôt de l'ère Meiji reconverti ; produits de la mer de Sado et sakés locaux (groupe Yonekura)",
+    "hours": [
+     "17:00–24:00（日曜休）",
+     "17:00–24:00 (closed Sun)",
+     "17:00–24:00 (fermé dim.)"
+    ],
+    "url": "https://www.yonekura-group.jp/shop/ebinohige/",
+    "rec": null,
+    "precision": "full"
    }
   },
   {
@@ -579,90 +579,6 @@
     "note_ja": "40年超、地産地消と地酒の老舗居酒屋",
     "note_en": "40+ years of local produce and jizake",
     "note_fr": "Plus de 40 ans de produits locaux et de jizake",
-    "hours": [
-     "—",
-     "—",
-     "—"
-    ],
-    "url": null,
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.044968,
-     37.922688
-    ]
-   },
-   "properties": {
-    "slug": "yasubei",
-    "genre": "jp",
-    "ja": "安兵衛 古町店",
-    "en": "Yasubei (Furumachi)",
-    "addr": "新潟市中央区古町通7番町",
-    "note_ja": "郷土料理と焼き鳥の気軽な居酒屋",
-    "note_en": "Easygoing izakaya of local dishes and yakitori",
-    "note_fr": "Izakaya décontracté : plats locaux et yakitori",
-    "hours": [
-     "—",
-     "—",
-     "—"
-    ],
-    "url": null,
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.044968,
-     37.922688
-    ]
-   },
-   "properties": {
-    "slug": "aguraya",
-    "genre": "jp",
-    "ja": "胡坐屋 古町店",
-    "en": "Aguraya (Furumachi)",
-    "addr": "新潟市中央区古町通7番町",
-    "note_ja": "古町通の和食居酒屋",
-    "note_en": "A Japanese izakaya on Furumachi-dori",
-    "note_fr": "Izakaya japonais sur Furumachi-dori",
-    "hours": [
-     "—",
-     "—",
-     "—"
-    ],
-    "url": null,
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.044968,
-     37.922688
-    ]
-   },
-   "properties": {
-    "slug": "daisuke",
-    "genre": "jp",
-    "ja": "大助 古町店",
-    "en": "Daisuke (Furumachi)",
-    "addr": "新潟市中央区古町通7番町",
-    "note_ja": "古町通の和食居酒屋",
-    "note_en": "A Japanese izakaya on Furumachi-dori",
-    "note_fr": "Izakaya japonais sur Furumachi-dori",
     "hours": [
      "—",
      "—",
@@ -978,7 +894,7 @@
     ],
     "url": null,
     "rec": null,
-    "precision": "district"
+    "precision": "full"
    }
   },
   {
@@ -1062,7 +978,7 @@
     ],
     "url": "https://tokiwasushi.top",
     "rec": "money",
-    "precision": "district"
+    "precision": "full"
    }
   },
   {
@@ -2078,34 +1994,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.045135,
-     37.922382
-    ]
-   },
-   "properties": {
-    "slug": "kotohira",
-    "genre": "soba",
-    "ja": "琴平古町分店",
-    "en": "Kotohira (Furumachi)",
-    "addr": "新潟市中央区古町通7-951-2",
-    "note_ja": "古町のうどん店",
-    "note_en": "Furumachi's udon shop",
-    "note_fr": "Le restaurant d'udon de Furumachi",
-    "hours": [
-     "11:00–21:00（土曜–15:00）",
-     "11:00–21:00 (Sat to 15:00)",
-     "11:00–21:00 (sam. jusqu'à 15:00)"
-    ],
-    "url": null,
-    "rec": null,
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.044846,
      37.923248
     ]
@@ -2151,6 +2039,34 @@
      "昼・夜（売り切れ次第終了、月曜休）",
      "Lunch & dinner, until sold out (closed Mon)",
      "Déjeuner et dîner, jusqu'à épuisement (fermé lun.)"
+    ],
+    "url": null,
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.04567,
+     37.926231
+    ]
+   },
+   "properties": {
+    "slug": "urasaki",
+    "genre": "soba",
+    "ja": "ラーメン 古町 浦咲",
+    "en": "Ramen Furumachi Urasaki",
+    "addr": "新潟市中央区古町通9-1473",
+    "note_ja": "焼きあご塩ラーメンの夜専門店、飲んだ後の〆に",
+    "note_en": "Night-only ramen known for grilled flying-fish (yaki-ago) salt broth — the classic Furumachi finisher",
+    "note_fr": "Ramen de nuit seulement, bouillon salé au poisson volant grillé (yaki-ago) — le final classique de Furumachi",
+    "hours": [
+     "18:00–02:00（金・土–04:00、日曜休）",
+     "18:00–02:00 (Fri & Sat to 04:00; closed Sun)",
+     "18:00–02:00 (ven. et sam. jusqu'à 04:00 ; fermé dim.)"
     ],
     "url": null,
     "rec": null,
@@ -2526,6 +2442,62 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     139.041122,
+     37.921814
+    ]
+   },
+   "properties": {
+    "slug": "meiku",
+    "genre": "west",
+    "ja": "bistro meiku（ビストロメイク）",
+    "en": "Bistro Meiku",
+    "addr": "新潟市中央区寄居町332 アーバン東中通2F",
+    "note_ja": "精肉店直営のイタリアン、和牛の炭火焼きが看板、2024年開店",
+    "note_en": "Italian bistro run by a butcher's family; charcoal-grilled wagyu is the signature; opened 2024",
+    "note_fr": "Bistrot italien tenu par une famille de bouchers ; le wagyu grillé au charbon est la spécialité ; ouvert en 2024",
+    "hours": [
+     "17:00–23:00（日・月曜休）",
+     "17:00–23:00 (closed Sun & Mon)",
+     "17:00–23:00 (fermé dim. et lun.)"
+    ],
+    "url": null,
+    "rec": null,
+    "precision": "district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.044418,
+     37.921608
+    ]
+   },
+   "properties": {
+    "slug": "vittoria",
+    "genre": "west",
+    "ja": "クチーナ ヴィットーリア",
+    "en": "Cucina Vittoria",
+    "addr": "新潟市中央区古町通6-953-2",
+    "note_ja": "ナポリ認定職人が薪石窯で焼く本格ナポリピッツァ",
+    "note_en": "Authentic Neapolitan pizza from a wood-fired stone oven, by a Naples-certified pizzaiolo",
+    "note_fr": "Pizza napolitaine authentique au four de pierre à bois, par un pizzaiolo certifié à Naples",
+    "hours": [
+     "11:30–15:00／17:30–22:00（火曜休）",
+     "11:30–15:00, 17:30–22:00 (closed Tue)",
+     "11:30–15:00, 17:30–22:00 (fermé mar.)"
+    ],
+    "url": null,
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      139.044617,
      37.924252
     ]
@@ -2666,34 +2638,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.045547,
-     37.92384
-    ]
-   },
-   "properties": {
-    "slug": "ebinohige",
-    "genre": "other",
-    "ja": "海老の髭",
-    "en": "Ebi no Hige",
-    "addr": "新潟市中央区古町通8-1433-2",
-    "note_ja": "海鮮居酒屋・カジュアル割烹",
-    "note_en": "A seafood izakaya — casual kappo",
-    "note_fr": "Izakaya de fruits de mer — kappo décontracté",
-    "hours": [
-     "17:00–24:00（日曜休）",
-     "17:00–24:00 (closed Sun)",
-     "17:00–24:00 (fermé dim.)"
-    ],
-    "url": "https://yonekura-group.jp/",
-    "rec": null,
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.045761,
      37.926643
     ]
@@ -2795,6 +2739,62 @@
      "—",
      "—",
      "—"
+    ],
+    "url": null,
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.045135,
+     37.924313
+    ]
+   },
+   "properties": {
+    "slug": "mikami",
+    "genre": "other",
+    "ja": "ふるまち見上",
+    "en": "Furumachi Mikami",
+    "addr": "新潟市中央区古町通8-1504-1 ビジョネアビル1F",
+    "note_ja": "完全予約制「みかみ」の姉妹店、海鮮の一品料理と焼肉を気軽に",
+    "note_en": "Casual sister shop of the reservation-only Mikami — seafood small plates and yakiniku",
+    "note_fr": "Adresse décontractée du Mikami (sur réservation) : petites assiettes de la mer et yakiniku",
+    "hours": [
+     "17:00–23:00（金・土–24:00、日・祝休）",
+     "17:00–23:00 (Fri & Sat to 24:00; closed Sun & holidays)",
+     "17:00–23:00 (ven. et sam. jusqu'à 24:00 ; fermé dim. et fériés)"
+    ],
+    "url": null,
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.045135,
+     37.924313
+    ]
+   },
+   "properties": {
+    "slug": "togarashi",
+    "genre": "other",
+    "ja": "旬菜中華 十嵐",
+    "en": "Shunsai Chūka Tōgarashi",
+    "addr": "新潟市中央区古町通8-1488-2 新高ビル1F",
+    "note_ja": "地元の旬野菜を活かした本格中華、麻婆豆腐が看板",
+    "note_en": "Serious Chinese cooking built on local seasonal vegetables; the mapo tofu is the signature",
+    "note_fr": "Cuisine chinoise soignée autour des légumes locaux de saison ; le mapo tofu est la spécialité",
+    "hours": [
+     "16:00–24:00（日曜休）",
+     "16:00–24:00 (closed Sun)",
+     "16:00–24:00 (fermé dim.)"
     ],
     "url": null,
     "rec": null,
