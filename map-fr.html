@@ -48,6 +48,10 @@
   .legend { margin:.7rem 0; font-size:.92rem; }
   .lg { margin-right:1.1rem; white-space:nowrap; }
   .dot { display:inline-block; width:.8em; height:.8em; border-radius:50%; margin-right:.35em; border:1px solid #fff; box-shadow:0 0 0 1px #999; }
+  .leaflet-tooltip.name-label { background:rgba(255,255,255,.85); border:1px solid rgba(29,42,36,.25); color:#1d2a24; font-size:11px; line-height:1.3; padding:0 4px; border-radius:3px; box-shadow:0 1px 2px rgba(0,0,0,.15); pointer-events:none; }
+  .leaflet-tooltip.name-label:before { display:none; }
+  #map .name-label { display:none; }
+  #map.show-names .name-label { display:block; }
   a { color:var(--accent); }
   footer { border-top:1px solid #ddd5c3; margin-top:2rem; padding-top:1.2rem; font-size:.85rem; color:#5c665f; }
 </style>
@@ -58,7 +62,7 @@
 <h1>Les brasseries de saké de Niigata, sur la carte</h1>
 <p>Toutes les brasseries de l'annuaire de l'Association des brasseurs de saké de Niigata, placées sur la carte. Les couleurs distinguent les quatre régions — Kaetsu (nord), Chuetsu (centre), Joetsu (ouest) et l'île de Sado. Cliquez sur un repère pour la marque, l'année de fondation et les visites possibles. La plupart des repères sont sur l'adresse exacte de la brasserie ; quelques-uns sont placés au niveau du quartier. Voir aussi <a href='sake-fr.html'>la liste complète</a>.</p>
 <div class="legend"><span class="lg"><span class="dot" style="background:#1f5c3d"></span>Kaetsu</span><span class="lg"><span class="dot" style="background:#b3402a"></span>Chuetsu</span><span class="lg"><span class="dot" style="background:#20508c"></span>Joetsu</span><span class="lg"><span class="dot" style="background:#6b3fa0"></span>Sado</span>
-<label style="margin-left:1rem"><input type="checkbox" id="toursOnly"> Brasseries proposant des visites uniquement</label></div>
+<label style="margin-left:1rem"><input type="checkbox" id="toursOnly"> Brasseries proposant des visites uniquement</label><label style="margin-left:1rem"><input type="checkbox" id="showNames"> Afficher les noms</label></div>
 <div id="map"></div>
 <p style="font-size:.85rem;color:#5c665f">Données : annuaire des brasseries de l'Association des brasseurs de saké de Niigata (au 23 novembre 2026) ; noms en caractères latins vérifiés dans la carte anglaise des brasseries de l'Agence nationale des impôts (2021). Fond de carte : Esri World Street Map, noms de lieux en japonais et en anglais ; données cartographiques © OpenStreetMap contributors. Les données sont aussi publiées au format <a href="breweries.geojson">breweries.geojson</a>.</p>
 <footer>
@@ -91,6 +95,7 @@ function draw() {
           (p.founded ? `<br>Fondation : ${p.founded}` : "") +
           `<br>Visites : ${p.tours ? "Oui" : "—"}` +
           (p.url ? `<br><a href="${p.url}" target="_blank" rel="noopener">Site officiel</a>` : ""));
+      l.bindTooltip(p.name_en, { permanent: true, direction: 'top', offset: [0, -9], className: 'name-label', interactive: false });
     }
   }).addTo(map);
   return layer;
@@ -98,6 +103,17 @@ function draw() {
 const full = draw();
 map.fitBounds(full.getBounds().pad(0.05));
 document.getElementById('toursOnly').addEventListener('change', draw);
+const LABEL_ZOOM = 14;
+let namesOverride = null;
+const namesBox = document.getElementById('showNames');
+function updateLabels() {
+  const show = namesOverride !== null ? namesOverride : map.getZoom() >= LABEL_ZOOM;
+  document.getElementById('map').classList.toggle('show-names', show);
+  namesBox.checked = show;
+}
+map.on('zoomend', () => { if (namesOverride === null) updateLabels(); });
+namesBox.addEventListener('change', () => { namesOverride = namesBox.checked; updateLabels(); });
+updateLabels();
 </script>
 <script data-goatcounter="https://niigata2027.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

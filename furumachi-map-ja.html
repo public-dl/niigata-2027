@@ -48,6 +48,10 @@
   .legend { margin:.7rem 0; font-size:.92rem; }
   .lg { margin-right:1.1rem; white-space:nowrap; }
   .dot { display:inline-block; width:.8em; height:.8em; border-radius:50%; margin-right:.35em; border:1px solid #fff; box-shadow:0 0 0 1px #999; }
+  .leaflet-tooltip.name-label { background:rgba(255,255,255,.85); border:1px solid rgba(29,42,36,.25); color:#1d2a24; font-size:11px; line-height:1.3; padding:0 4px; border-radius:3px; box-shadow:0 1px 2px rgba(0,0,0,.15); pointer-events:none; }
+  .leaflet-tooltip.name-label:before { display:none; }
+  #map .name-label { display:none; }
+  #map.show-names .name-label { display:block; }
   a { color:var(--accent); }
   footer { border-top:1px solid #ddd5c3; margin-top:2rem; padding-top:1.2rem; font-size:.85rem; color:#5c665f; }
 </style>
@@ -57,7 +61,7 @@
 <main>
 <h1>古町100店マップ</h1>
 <p><a href='furumachi-ja.html'>古町100店の名簿</a>の全店を地図に落としました。ピンを押すと、店の一言・営業時間目安・公式サイトが表示されます。色はジャンル別です。58店は番地まで特定した位置、それ以外は通り・番町レベルの位置ですので、ピンは「この通りのこのあたり」とお考えください。</p>
-<div class="legend"><span class="lg"><span class="dot" style="background:#1f5c3d"></span>日本料理・割烹・居酒屋</span><span class="lg"><span class="dot" style="background:#b3402a"></span>寿司</span><span class="lg"><span class="dot" style="background:#6b3fa0"></span>バー</span><span class="lg"><span class="dot" style="background:#20508c"></span>蕎麦・麺</span><span class="lg"><span class="dot" style="background:#b8860b"></span>フレンチ・イタリアン・洋食</span><span class="lg"><span class="dot" style="background:#555f58"></span>焼鳥・その他</span></div>
+<div class="legend"><span class="lg"><span class="dot" style="background:#1f5c3d"></span>日本料理・割烹・居酒屋</span><span class="lg"><span class="dot" style="background:#b3402a"></span>寿司</span><span class="lg"><span class="dot" style="background:#6b3fa0"></span>バー</span><span class="lg"><span class="dot" style="background:#20508c"></span>蕎麦・麺</span><span class="lg"><span class="dot" style="background:#b8860b"></span>フレンチ・イタリアン・洋食</span><span class="lg"><span class="dot" style="background:#555f58"></span>焼鳥・その他</span><label style="margin-left:1rem"><input type="checkbox" id="showNames"> 店名を表示</label></div>
 <div id="map"></div>
 <p style="font-size:.85rem;color:#5c665f">住所は各店の公式サイト、食べログ、地元ガイドで2026年11月に確認。座標は国土地理院の住所検索による。地図 © OpenStreetMap contributors。 プロットしたデータは <a href="furumachi.geojson">furumachi.geojson</a> でも公開しています。</p>
 <footer>
@@ -82,9 +86,21 @@ const layer = L.geoJSON(DATA, {
     const p = f.properties;
     l.bindPopup(`<strong>${p.ja}</strong><br>${p.note_ja}<br>${p.hours[0]}` +
           (p.url ? `<br><a href="${p.url}" target="_blank" rel="noopener">公式サイト等</a>` : ""));
+    l.bindTooltip(p.ja, { permanent: true, direction: 'top', offset: [0, -9], className: 'name-label', interactive: false });
   }
 }).addTo(map);
 map.fitBounds(layer.getBounds().pad(0.08));
+const LABEL_ZOOM = 16;
+let namesOverride = null;
+const namesBox = document.getElementById('showNames');
+function updateLabels() {
+  const show = namesOverride !== null ? namesOverride : map.getZoom() >= LABEL_ZOOM;
+  document.getElementById('map').classList.toggle('show-names', show);
+  namesBox.checked = show;
+}
+map.on('zoomend', () => { if (namesOverride === null) updateLabels(); });
+namesBox.addEventListener('change', () => { namesOverride = namesBox.checked; updateLabels(); });
+updateLabels();
 </script>
 <script data-goatcounter="https://niigata2027.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
