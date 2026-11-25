@@ -5,8 +5,8 @@
 # fetches every official URL, and writes reports/link-check.md (human
 # summary) and reports/link-check.json (machine-readable; the workflow
 # opens/updates a GitHub Issue when "dead" links are found).
-# Classification: ok (2xx/3xx), dead (404/410), restricted (401/403, and
-# 400 from facebook.com — bot responses, not proof of a dead page),
+# Classification: ok (2xx/3xx), dead (404/410), restricted (401/403/429
+# rate limits, and 400 from facebook.com — bot responses, not dead pages),
 # error (5xx, DNS, timeout, SSL; retried once).
 import concurrent.futures, datetime, json, pathlib, ssl, sys, urllib.request, urllib.error
 
@@ -54,7 +54,7 @@ def check(item):
             last = str(e.code)
             if e.code in (404, 410):
                 return (kind, name, url, "dead", last)
-            if e.code in (401, 403) or (e.code == 400 and "facebook.com" in url):
+            if e.code in (401, 403, 429) or (e.code == 400 and "facebook.com" in url):
                 return (kind, name, url, "restricted", last)
             if attempt == 1:
                 return (kind, name, url, "error", last)
