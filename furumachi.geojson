@@ -640,7 +640,7 @@
      "16:00–09:30 next day",
      "16:00–09:30 le lendemain"
     ],
-    "url": null,
+    "url": "https://tabelog.com/niigata/A1501/A150101/15002397/",
     "rec": null,
     "precision": "district"
    }
@@ -668,7 +668,7 @@
      "From 17:00",
      "À partir de 17:00"
     ],
-    "url": null,
+    "url": "https://retty.me/area/PRE15/ARE157/SUB49502/100000464867/",
     "rec": null,
     "precision": "district"
    }
@@ -696,7 +696,7 @@
      "17:30–23:30 (closed Mon)",
      "17:30–23:30 (fermé lun.)"
     ],
-    "url": null,
+    "url": "https://tabelog.com/niigata/A1501/A150101/15015177/",
     "rec": null,
     "precision": "full"
    }
@@ -808,7 +808,7 @@
      "18:00–22:00 (closed Sun)",
      "18:00–22:00 (fermé dim.)"
     ],
-    "url": null,
+    "url": "https://tabelog.com/niigata/A1501/A150101/15024462/",
     "rec": null,
     "precision": "full"
    }
@@ -846,23 +846,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.045807,
-     37.925697
+     139.045135,
+     37.924313
     ]
    },
    "properties": {
     "slug": "suzumura",
     "genre": "jp",
-    "ja": "寿ゞむら",
-    "en": "Suzumura",
-    "addr": "新潟市中央区古町通9-1484",
-    "note_ja": "新潟で唯一とされるお茶屋様式の店",
-    "note_en": "Said to be Niigata's only ochaya-style establishment",
-    "note_fr": "Réputée la seule maison de style ochaya de Niigata",
+    "ja": "料理とお酒 すずむら",
+    "en": "Ryōri to Osake Suzumura",
+    "addr": "新潟市中央区古町通8番町1505-1 2F",
+    "note_ja": "佐渡直送の鮮魚と日本酒のペアリングを楽しむ居酒屋",
+    "note_en": "An izakaya built on fish sent directly from Sado and sake chosen to match",
+    "note_fr": "Izakaya autour des poissons envoyés directement de Sado et des sakés assortis",
     "hours": [
-     "—",
-     "—",
-     "—"
+     "18:00–翌1:00（日曜休）",
+     "18:00–01:00 next day (closed Sun)",
+     "18:00–01:00 le lendemain (fermé dim.)"
     ],
     "url": null,
     "rec": null,
