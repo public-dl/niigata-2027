@@ -1844,7 +1844,7 @@
      "16:00–23:00 (Fri & Sat to 24:00)",
      "16:00–23:00 (ven. et sam. jusqu'à 24:00)"
     ],
-    "url": null,
+    "url": "https://www.instagram.com/wine_eichi/",
     "rec": null,
     "precision": "district"
    }
@@ -1917,8 +1917,8 @@
    "properties": {
     "slug": "magoshiro",
     "genre": "soba",
-    "ja": "孫四郎そば 古町店",
-    "en": "Magoshirō Soba (Furumachi)",
+    "ja": "くまじ（孫四郎そば）",
+    "en": "Kumaji (Magoshirō Soba)",
     "addr": "新潟市中央区東堀通8-1411-1",
     "note_ja": "深夜まで開くへぎそばの〆の店",
     "note_en": "Hegisoba until dawn — the classic way to end the night",
@@ -1928,7 +1928,7 @@
      "19:30–05:30",
      "19:30–05:30"
     ],
-    "url": null,
+    "url": "https://tabelog.com/niigata/A1501/A150101/15021911/",
     "rec": "shime",
     "precision": "full"
    }
@@ -1958,34 +1958,6 @@
     ],
     "url": "https://www.instagram.com/nishibori_soba/",
     "rec": "shime",
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.04599,
-     37.921036
-    ]
-   },
-   "properties": {
-    "slug": "konpira",
-    "genre": "soba",
-    "ja": "さぬき本家 金毘羅うどん 東堀店",
-    "en": "Konpira Udon (Higashibori)",
-    "addr": "新潟市中央区東堀前通6-1064",
-    "note_ja": "深夜まで営業の讃岐うどん",
-    "note_en": "Sanuki udon served until late",
-    "note_fr": "Udon de Sanuki servis tard",
-    "hours": [
-     "11:30–24:00",
-     "11:30–24:00",
-     "11:30–24:00"
-    ],
-    "url": null,
-    "rec": null,
     "precision": "full"
    }
   },
@@ -2797,6 +2769,34 @@
      "17:00–21:00 (fermé dim. et fériés)"
     ],
     "url": null,
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.045135,
+     37.924313
+    ]
+   },
+   "properties": {
+    "slug": "non",
+    "genre": "other",
+    "ja": "小皿中華 non-",
+    "en": "Kozara Chūka non-",
+    "addr": "新潟市中央区古町通8番町1503",
+    "note_ja": "ホテル出身シェフの本格中華を小皿で、立ち飲みも",
+    "note_en": "Small-plate Chinese cooking by a hotel-trained chef; standing drinks too",
+    "note_fr": "Cuisine chinoise en petites assiettes par un chef formé en hôtel ; on peut aussi boire debout",
+    "hours": [
+     "17:00–23:00頃（曜日により変動、月曜休）",
+     "17:00–23:00 or so (varies by day; closed Mon)",
+     "17:00–23:00 environ (variable selon le jour ; fermé lun.)"
+    ],
+    "url": "https://www.instagram.com/non_kozara_chuka",
     "rec": null,
     "precision": "full"
    }
