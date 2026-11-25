@@ -1,124 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://public-dl.github.io/niigata-2027/</loc>
     <lastmod>2026-11-25</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/ja.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/fr.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/sake.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sake.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sake-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sake-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sake.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/sake-ja.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sake.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sake-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sake-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sake.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/sake-fr.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sake.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sake-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sake-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sake.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/map.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/map.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/map-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/map-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/map.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/map-ja.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/map.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/map-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/map-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/map.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/map-fr.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/map.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/map-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/map-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/map.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/sushi.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sushi-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/sushi-ja.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sushi-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/sushi-fr.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sushi-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/sushi-map.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-map-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sushi-map-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/sushi-map-ja.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-map-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sushi-map-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
   </url>
   <url>
     <loc>https://public-dl.github.io/niigata-2027/sushi-map-fr.html</loc>
     <lastmod>2026-11-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://public-dl.github.io/niigata-2027/sushi-map-ja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://public-dl.github.io/niigata-2027/sushi-map-fr.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://public-dl.github.io/niigata-2027/sushi-map.html"/>
   </url>
 </urlset>
