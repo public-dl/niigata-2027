@@ -103,7 +103,7 @@ function draw() {
 const full = draw();
 map.fitBounds(full.getBounds().pad(0.05));
 document.getElementById('toursOnly').addEventListener('change', draw);
-const LABEL_ZOOM = 14;
+const LABEL_ZOOM = 12;
 let namesOverride = null;
 const namesBox = document.getElementById('showNames');
 function updateLabels() {
