@@ -1,0 +1,45 @@
+name: Build pages from data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/furumachi.json'
+      - 'data/breweries.json'
+      - 'scripts/**'
+      - '.github/workflows/build-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Build pages from data
+        run: python3 scripts/build_site.py
+
+      - name: Commit regenerated pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add furumachi.html furumachi-ja.html furumachi-fr.html furumachi-map.html furumachi-map-ja.html furumachi-map-fr.html furumachi.geojson sake.html sake-ja.html sake-fr.html map.html map-ja.html map-fr.html breweries.geojson index.html ja.html fr.html sushi.html sushi-ja.html sushi-fr.html sushi-map.html sushi-map-ja.html sushi-map-fr.html sitemap.xml robots.txt
+          if git diff --cached --quiet; then
+            echo "No generated files changed."
+          else
+            git commit -m "Auto-build pages from data"
+            git push
+          fi
