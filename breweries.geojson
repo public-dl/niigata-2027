@@ -1239,7 +1239,7 @@
     "region_ja": "下越",
     "founded": null,
     "tours": false,
-    "url": "http://www.minenohakubai.co.jp/",
+    "url": "https://www.minenohakubai.com/",
     "precision": "FULL_ADDRESS"
    }
   },
@@ -1722,7 +1722,7 @@
     "region_ja": "下越",
     "founded": 1945,
     "tours": true,
-    "url": "http://www.taiyo-sake.co.jp",
+    "url": "https://www.taiyo-sake.co.jp/",
     "precision": "STREET"
    }
   },
@@ -2021,7 +2021,7 @@
     "region_ja": "下越",
     "founded": 1838,
     "tours": false,
-    "url": "http://www.yahiko-shuzo.jp",
+    "url": "https://www.yahikonosake.com/",
     "precision": "FULL_ADDRESS"
    }
   },
