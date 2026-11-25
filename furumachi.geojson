@@ -2012,7 +2012,7 @@
      "Lunch & dinner, until sold out (closed Mon)",
      "Déjeuner et dîner, jusqu'à épuisement (fermé lun.)"
     ],
-    "url": null,
+    "url": "https://www.instagram.com/ramen_kurai/",
     "rec": null,
     "precision": "full"
    }
@@ -2040,7 +2040,7 @@
      "18:00–02:00 (Fri & Sat to 04:00; closed Sun)",
      "18:00–02:00 (ven. et sam. jusqu'à 04:00 ; fermé dim.)"
     ],
-    "url": null,
+    "url": "https://tabelog.com/niigata/A1501/A150101/15020010/",
     "rec": null,
     "precision": "full"
    }
@@ -2153,34 +2153,6 @@
      "11:30–14:30, 17:30–21:30 (fermé dim.)"
     ],
     "url": "https://bistromarque.com/",
-    "rec": null,
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.044678,
-     37.920773
-    ]
-   },
-   "properties": {
-    "slug": "regalo",
-    "genre": "west",
-    "ja": "レガロ",
-    "en": "REGALO",
-    "addr": "新潟市中央区古町通6-980 2F",
-    "note_ja": "パスタ中心のイタリアン",
-    "note_en": "A pasta-centred Italian",
-    "note_fr": "Italien centré sur les pâtes",
-    "hours": [
-     "11:30–14:30／17:30–22:00（月曜休）",
-     "11:30–14:30, 17:30–22:00 (closed Mon)",
-     "11:30–14:30, 17:30–22:00 (fermé lun.)"
-    ],
-    "url": null,
     "rec": null,
     "precision": "full"
    }
@@ -2797,6 +2769,34 @@
      "17:00–23:00 environ (variable selon le jour ; fermé lun.)"
     ],
     "url": "https://www.instagram.com/non_kozara_chuka",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.045135,
+     37.924313
+    ]
+   },
+   "properties": {
+    "slug": "ranriko",
+    "genre": "other",
+    "ja": "鶏料理らんりこ",
+    "en": "Ranriko",
+    "addr": "新潟市中央区古町通8番町1508 永喜多ビル3F",
+    "note_ja": "比内地鶏や伊達鶏を味わう鶏料理専門店",
+    "note_en": "A chicken specialist serving Hinai-jidori and Date-dori",
+    "note_fr": "Spécialiste du poulet : Hinai-jidori et Date-dori",
+    "hours": [
+     "18:00–24:00（日曜休）",
+     "18:00–24:00 (closed Sun)",
+     "18:00–24:00 (fermé dim.)"
+    ],
+    "url": "https://akr5951926559.owst.jp/",
     "rec": null,
     "precision": "full"
    }
