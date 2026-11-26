@@ -230,34 +230,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.04425,
-     37.92284
-    ]
-   },
-   "properties": {
-    "slug": "hotaru",
-    "genre": "jp",
-    "ja": "割烹 螢（ホテルイタリア軒）",
-    "en": "Kappō Hotaru (Hotel Italia-ken)",
-    "addr": "新潟市中央区西堀前通7番町",
-    "note_ja": "明治創業のホテルイタリア軒直営の割烹",
-    "note_en": "The kappo of Hotel Italia-ken, a hotel founded in the Meiji era",
-    "note_fr": "Le kappo de l'hôtel Italia-ken, fondé à l'ère Meiji",
-    "hours": [
-     "17:30–21:00",
-     "17:30–21:00",
-     "17:30–21:00"
-    ],
-    "url": "https://www.italiaken.com/restaurant/hotaru/",
-    "rec": null,
-    "precision": "district"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.046738,
      37.925652
     ]
@@ -2797,6 +2769,34 @@
      "18:00–24:00 (fermé dim.)"
     ],
     "url": "https://akr5951926559.owst.jp/",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.04808,
+     37.925114
+    ]
+   },
+   "properties": {
+    "slug": "uga",
+    "genre": "other",
+    "ja": "宇呀（うが）",
+    "en": "Uga",
+    "addr": "新潟市中央区本町通9-1326",
+    "note_ja": "築140年の古民家に構えるカウンター8席の薪火レストラン。新潟の食材だけで組む「湊町新潟ガストロノミー」の一斉スタートのコース",
+    "note_en": "A wood-fire restaurant of just eight counter seats in a 140-year-old townhouse — one set-seating course of Niigata ingredients alone, its 'Minatomachi Niigata gastronomy'",
+    "note_fr": "Restaurant au feu de bois de huit places au comptoir, dans une maison vieille de 140 ans — un menu à service unique, composé des seuls produits de Niigata",
+    "hours": [
+     "18:30–21:30（土日は12:00–15:00の昼も、不定休・完全予約制）",
+     "18:30–21:30 (also 12:00–15:00 Sat & Sun; irregular holidays, reservations only)",
+     "18:30–21:30 (aussi 12:00–15:00 sam. et dim. ; fermeture irrégulière, sur réservation uniquement)"
+    ],
+    "url": "https://www.instagram.com/restaurant_uga/",
     "rec": null,
     "precision": "full"
    }
