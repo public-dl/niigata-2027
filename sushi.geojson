@@ -18,6 +18,8 @@
     "area_ja": "中央区・東堀通8（鍋茶屋通り）",
     "note_en": "Omakase only, dinner only · guide ¥20,000–29,999 · Tabelog Award 2026 Silver",
     "note_ja": "夜のみ・おまかせのみ｜目安 20,000〜29,999円｜食べログアワード2026 Silver",
+    "area_fr": "Furumachi / Nabeyacho-dori, Chuo-ku",
+    "note_fr": "Omakase uniquement, dîner uniquement · repère 20 000–29 999 ¥ · Tabelog Award 2026 Silver",
     "url": null,
     "precision": "STREET_GSI"
    }
@@ -39,8 +41,102 @@
     "area_ja": "中央区・本町通り7（古町）",
     "note_en": "Full course ¥28,600 · nigiri-only lunch (Thu & Fri) from ¥11,000 · ~99% Niigata ingredients",
     "note_ja": "フルコース 28,600円｜握りのみランチ（木・金）11,000円から｜食材の約99％が新潟産",
+    "area_fr": "Honcho-dori, Furumachi, Chuo-ku",
+    "note_fr": "Menu complet 28 600 ¥ · déjeuner nigiri (jeu. & ven.) dès 11 000 ¥ · ~99 % d’ingrédients de Niigata",
     "url": "https://tokiwasushi.top",
     "precision": "DISTRICT_OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.04519,
+     37.92526
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi Hatakeyama",
+    "name_ja": "鮨はたけやま",
+    "cat": "counter",
+    "area_en": "Furumachi-dori 9, Chuo-ku",
+    "area_ja": "中央区・古町通9",
+    "note_en": "Reservation-only · omakase course ¥16,500 · 7-seat counter · Gastronomy Award 2026 Silver · closed Mondays",
+    "note_ja": "完全予約制｜おまかせ 16,500円｜カウンター7席｜ガストロノミーアワード2026 SILVER｜月曜定休",
+    "area_fr": "Furumachi-dori 9, Chuo-ku",
+    "note_fr": "Sur réservation · omakase 16 500 ¥ · comptoir de 7 places · Gastronomy Award 2026 Silver · fermé le lundi",
+    "url": "https://sushi-hatakeyama.com/",
+    "precision": "PLACE_LISTING"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.0427396,
+     37.9210404
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi Nakaku Hoshino",
+    "name_ja": "鮨 奈可久 星野",
+    "cat": "counter",
+    "area_en": "Nishibori-dori 5, Chuo-ku",
+    "area_ja": "中央区・西堀通5",
+    "note_en": "Edomae with aged local fish · dinner only · guide ¥17,000 · closed Sundays & holidays",
+    "note_ja": "近海の地魚の江戸前・熟成｜夜のみ｜目安 17,000円｜日・祝定休",
+    "area_fr": "Nishibori-dori 5, Chuo-ku",
+    "note_fr": "Edomae, poissons locaux maturés · dîner uniquement · repère 17 000 ¥ · fermé dim. & jours fériés",
+    "url": "https://r986200.gorp.jp/",
+    "precision": "PLACE_LISTING"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.048782,
+     37.922581
+    ]
+   },
+   "properties": {
+    "name_en": "Hatsune Zushi (Honten)",
+    "name_ja": "はつね寿司 本店",
+    "cat": "counter",
+    "area_en": "Kamiookawa-mae-dori 7, Chuo-ku",
+    "area_ja": "中央区・上大川前通7",
+    "note_en": "Reservation-only · 6-seat counter · guide ¥20,000–29,999 · Tabelog Top 100 Sushi EAST · closed Wednesdays & Sundays",
+    "note_ja": "完全予約制｜カウンター6席｜目安 20,000〜29,999円｜寿司EAST百名店｜水・日＋不定休",
+    "area_fr": "Kamiookawa-mae-dori 7, Chuo-ku",
+    "note_fr": "Sur réservation · comptoir de 6 places · repère 20 000–29 999 ¥ · Top 100 Sushi EAST de Tabelog · fermé mer. & dim.",
+    "url": "https://tabelog.com/niigata/A1501/A150101/15002565/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.046753,
+     37.925999
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi Kurogo",
+    "name_ja": "すし 黒衣",
+    "cat": "counter",
+    "area_en": "Higashibori-dori 9, Chuo-ku (2F)",
+    "area_ja": "中央区・東堀通9（2F）",
+    "note_en": "Opened Oct 2025 · courses ¥7,700 / ¥11,000 · Gastronomy Award 2026 Bronze · closed Sundays & holidays",
+    "note_ja": "2025年10月開店｜コース 7,700円／11,000円｜ガストロノミーアワード2026 BRONZE｜日・祝定休",
+    "area_fr": "Higashibori-dori 9, Chuo-ku (2e étage)",
+    "note_fr": "Ouvert en oct. 2025 · menus 7 700 / 11 000 ¥ · Gastronomy Award 2026 Bronze · fermé dim. & jours fériés",
+    "url": "https://www.instagram.com/sushi_kurogo/",
+    "precision": "FULL_ADDRESS_GSI"
    }
   },
   {
@@ -60,6 +156,8 @@
     "area_ja": "中央区・東堀通8",
     "note_en": "50 years in the geisha district · 'Kiwami' set ¥4,950 · lunch from around ¥3,000",
     "note_ja": "花街で50年｜「極み」セット 4,950円｜ランチ 3,000円台から",
+    "area_fr": "Higashibori-dori, Chuo-ku",
+    "note_fr": "50 ans dans le quartier des geishas · menu « Kiwami » 4 950 ¥ · déjeuner dès ~3 000 ¥",
     "url": "https://sushi-marui.com/",
     "precision": "POI_OSM"
    }
@@ -81,8 +179,148 @@
     "area_ja": "中央区・古町通9",
     "note_en": "Furumachi institution since 1933 · Niigata rice and Niigata fish · closed Mondays",
     "note_ja": "1933年創業の古町の老舗｜米も魚も新潟のもの｜月曜定休",
+    "area_fr": "Furumachi-dori 9, Chuo-ku",
+    "note_fr": "Adresse de Furumachi depuis 1933 · riz et poisson de Niigata · fermé le lundi",
     "url": "https://3710-sushi.com/",
     "precision": "PLACE_LISTING"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.045486,
+     37.925568
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi Benkei Kai (Furumachi)",
+    "name_ja": "鮨 弁慶 海 古町店",
+    "cat": "classic",
+    "area_en": "Furumachi-dori 9, Chuo-ku",
+    "area_ja": "中央区・古町通9",
+    "note_en": "Benkei's chef-counter shop · Sado fish, Edomae technique · lunch from ¥2,000 · closed Sundays & holidays",
+    "note_ja": "弁慶の職人カウンター店｜佐渡の素材×江戸前｜ランチ 2,000円から｜日・祝定休",
+    "area_fr": "Furumachi-dori 9, Chuo-ku",
+    "note_fr": "Le comptoir de chef de Benkei · poissons de Sado, technique Edomae · déjeuner dès 2 000 ¥ · fermé dim. & jours fériés",
+    "url": "https://sado-benkei.com/umi-furumachi/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.044998,
+     37.917896
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi Yasu",
+    "name_ja": "寿司安",
+    "cat": "classic",
+    "area_en": "Honcho-dori 4, Furumachi, Chuo-ku",
+    "area_ja": "中央区・本町通4（古町）",
+    "note_en": "Since 1934 · wild, seasonal fish only · 'Kiwami' set ¥4,950 · closed Wednesdays & Thursdays",
+    "note_ja": "1934年創業｜天然・旬のみ｜「極み」4,950円｜水・木定休",
+    "area_fr": "Honcho-dori 4, Furumachi, Chuo-ku",
+    "note_fr": "Depuis 1934 · poissons sauvages de saison uniquement · menu « Kiwami » 4 950 ¥ · fermé mer. & jeu.",
+    "url": "https://sushiyasu-sushi.com/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.043579,
+     37.924706
+    ]
+   },
+   "properties": {
+    "name_en": "Daifuku Zushi",
+    "name_ja": "大福寿司",
+    "cat": "classic",
+    "area_en": "Nishibori-dori 7 (Italia-koji), Chuo-ku",
+    "area_ja": "中央区・西堀通7（イタリア小路）",
+    "note_en": "Sushi-kappo on Italia-koji lane · Sado fish · courses from ¥8,800 · closed Sundays & holidays",
+    "note_ja": "イタリア小路の寿司割烹｜佐渡沖の魚介｜コース 8,800円から｜日・祝定休",
+    "area_fr": "Nishibori-dori 7 (Italia-koji), Chuo-ku",
+    "note_fr": "Sushi-kappo dans la ruelle Italia-koji · poissons de Sado · menus dès 8 800 ¥ · fermé dim. & jours fériés",
+    "url": "https://daifukuzushi.com/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.04312,
+     37.92547
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi Maruyoshi",
+    "name_ja": "鮨 まる嘉",
+    "cat": "classic",
+    "area_en": "Nishibori-dori 7 (Italia-koji), Chuo-ku",
+    "area_ja": "中央区・西堀通7（イタリア小路）",
+    "note_en": "At the back of Italia-koji lane · counter & tatami rooms · nigiri sets and courses · irregular holidays",
+    "note_ja": "イタリア小路の奥｜カウンターと座敷｜握りとコース｜不定休",
+    "area_fr": "Nishibori-dori 7 (Italia-koji), Chuo-ku",
+    "note_fr": "Au fond de la ruelle Italia-koji · comptoir & salles tatami · nigiri et menus · fermetures irrégulières",
+    "url": "https://sushi-maruyoshi.jp/",
+    "precision": "PLACE_LISTING"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.043747,
+     37.920944
+    ]
+   },
+   "properties": {
+    "name_en": "Okina Zushi",
+    "name_ja": "翁寿し",
+    "cat": "classic",
+    "area_en": "Nishibori-mae-dori 6, Chuo-ku",
+    "area_ja": "中央区・西堀前通6",
+    "note_en": "Family-run classic · lunch nigiri set ¥1,200 · open until midnight · closed 2nd & 4th Sundays",
+    "note_ja": "家族経営の老舗｜ランチ生にぎり 1,200円｜24時まで｜第2・第4日曜定休",
+    "area_fr": "Nishibori-mae-dori 6, Chuo-ku",
+    "note_fr": "Classique familial · menu nigiri du déjeuner 1 200 ¥ · ouvert jusqu'à minuit · fermé les 2e & 4e dimanches",
+    "url": "https://tabelog.com/niigata/A1501/A150101/15001306/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.046249,
+     37.924114
+    ]
+   },
+   "properties": {
+    "name_en": "Shinbori Sushi",
+    "name_ja": "新堀寿司",
+    "cat": "classic",
+    "area_en": "Higashibori-dori 8, Chuo-ku",
+    "area_ja": "中央区・東堀通8",
+    "note_en": "Dinner only, until 1 a.m. · around 30 kinds of fish · guide ¥8,000–9,999 · closed Sundays & holidays",
+    "note_ja": "夜のみ深夜1時まで｜ネタ常時30種前後｜目安 8,000〜9,999円｜日・祝定休",
+    "area_fr": "Higashibori-dori 8, Chuo-ku",
+    "note_fr": "Dîner uniquement, jusqu'à 1 h · une trentaine de poissons · repère 8 000–9 999 ¥ · fermé dim. & jours fériés",
+    "url": "https://tabelog.com/niigata/A1501/A150101/15001547/",
+    "precision": "FULL_ADDRESS_GSI"
    }
   },
   {
@@ -102,6 +340,8 @@
     "area_ja": "中央区・東大通2（新潟駅から徒歩5分）",
     "note_en": "Shari of top-grade Iwafune Koshihikari · fish from the Niigata coast · closed Wednesdays",
     "note_ja": "シャリは岩船産コシヒカリの最上級｜新潟沖の地魚｜水曜定休",
+    "area_fr": "Higashi-Odori, à 5 min de la gare de Niigata",
+    "note_fr": "Shari de Koshihikari d’Iwafune haut de gamme · poissons de la côte de Niigata · fermé le mercredi",
     "url": "https://sushiiwa-niigata.com/",
     "precision": "PLACE_LISTING"
    }
@@ -123,7 +363,32 @@
     "area_ja": "中央区・東大通2（駅前）",
     "note_en": "'Kiwami' set ¥4,950 · local fish landed that day · rare Niigata sake · closed Sundays",
     "note_ja": "「極み」セット 4,950円｜その日揚がった地魚｜希少な地酒｜日曜定休",
+    "area_fr": "Devant la gare, Chuo-ku",
+    "note_fr": "Menu « Kiwami » 4 950 ¥ · poissons débarqués le jour même · sakés rares de Niigata · fermé le dimanche",
     "url": null,
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.069916,
+     37.922066
+    ]
+   },
+   "properties": {
+    "name_en": "Sekai Zushi",
+    "name_ja": "せかい鮨",
+    "cat": "station",
+    "area_en": "Nuttari, Chuo-ku",
+    "area_ja": "中央区・沼垂東4",
+    "note_en": "~90 years in Nuttari · birthplace of the seared nodoguro rice bowl · 'Kiwami' set ¥4,950 · closed Mondays & Tuesdays",
+    "note_ja": "沼垂で約90年｜のどぐろ炙り丼の発祥｜「極み」4,950円｜月・火定休",
+    "area_fr": "Nuttari, Chuo-ku",
+    "note_fr": "~90 ans à Nuttari · berceau du bol de nodoguro grillé · menu « Kiwami » 4 950 ¥ · fermé lun. & mar.",
+    "url": "http://www.sekaisushi.com/",
     "precision": "FULL_ADDRESS_GSI"
    }
   },
@@ -144,8 +409,56 @@
     "area_ja": "中央区・万代島 ピアBandai内",
     "note_en": "Conveyor-belt · Sado fish prepared the same day · Sado Koshihikari shari · plates ¥176–880 · closed Wednesdays",
     "note_ja": "回転寿司｜佐渡の魚を当日仕込み｜シャリは佐渡産コシヒカリ｜1皿 176〜880円｜水曜定休",
+    "area_fr": "Marché de Pier Bandai, Bandaijima, Chuo-ku",
+    "note_fr": "Kaiten · poissons de Sado préparés le jour même · shari 100 % Koshihikari de Sado · assiettes 176–880 ¥ · fermé le mercredi",
     "url": "https://sado-benkei.com/pier-bandai/",
     "precision": "POI_OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.059952,
+     37.913685
+    ]
+   },
+   "properties": {
+    "name_en": "Tomizushi (Niigata Station)",
+    "name_ja": "富寿し 新潟駅前店",
+    "cat": "casual",
+    "area_en": "Higashi-Odori 1, Niigata Station front",
+    "area_ja": "中央区・東大通1（新潟駅前）",
+    "note_en": "Conveyor-belt · 1 min from Niigata Station · local fish · guide ¥1,000–3,000 · closed Tuesdays",
+    "note_ja": "回転寿司｜新潟駅から徒歩1分｜地魚中心｜目安 1,000〜3,000円｜火曜定休",
+    "area_fr": "Higashi-Odori 1, devant la gare de Niigata",
+    "note_fr": "Kaiten · à 1 min de la gare de Niigata · poissons locaux · repère 1 000–3 000 ¥ · fermé le mardi",
+    "url": "https://www.tomizushi.com/shop/tomizushi/niigata-ekimae/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.04541,
+     37.925262
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi-dokoro Tengu",
+    "name_ja": "寿し処 天狗",
+    "cat": "casual",
+    "area_en": "Furumachi-dori 9, Chuo-ku",
+    "area_ja": "中央区・古町通9",
+    "note_en": "Late-night Furumachi favourite · open until 3:30–4 a.m. · guide ¥3,000–3,999 · closed Sundays",
+    "note_ja": "古町の深夜寿司｜深夜3時半〜4時まで｜目安 3,000〜3,999円｜日曜定休",
+    "area_fr": "Furumachi-dori 9, Chuo-ku",
+    "note_fr": "Adresse nocturne de Furumachi · ouvert jusqu'à 3 h 30–4 h · repère 3 000–3 999 ¥ · fermé le dimanche",
+    "url": "https://tabelog.com/niigata/A1501/A150101/15001734/",
+    "precision": "PLACE_LISTING"
    }
   }
  ]
