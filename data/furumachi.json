@@ -869,9 +869,9 @@
     "note_en": "Around 30 toppings at any time; open late",
     "note_fr": "Une trentaine de poissons en permanence ; ouvert tard",
     "hours": [
-      "11:00–13:30／17:00–翌1:00（日・祝休）",
-      "11:00–13:30, 17:00–01:00 (closed Sun & holidays)",
-      "11:00–13:30, 17:00–01:00 (fermé dim. et fériés)"
+      "17:00–翌1:00（日・祝休）",
+      "17:00–01:00 (closed Sun & holidays)",
+      "17:00–01:00 (fermé dim. et fériés)"
     ],
     "url": "https://tabelog.com/niigata/A1501/A150101/15001547/",
     "rec": null,
@@ -1005,9 +1005,9 @@
     "ja": "はつね寿司 本店",
     "en": "Hatsune Zushi (Honten)",
     "addr": "新潟市中央区上大川前通7番町",
-    "note_ja": "完全予約制・カウンター8席",
-    "note_en": "Reservation-only, eight counter seats",
-    "note_fr": "Sur réservation uniquement, huit places au comptoir",
+    "note_ja": "完全予約制・カウンター6席",
+    "note_en": "Reservation-only, six counter seats",
+    "note_fr": "Sur réservation uniquement, six places au comptoir",
     "hours": [
       "18:00–23:00（水・日休）",
       "18:00–23:00 (closed Wed & Sun)",
@@ -1024,7 +1024,7 @@
     "genre": "sushi",
     "ja": "寿し処 天狗",
     "en": "Sushi-dokoro Tengu",
-    "addr": "新潟市中央区古町通9-1486 アラカワビル1F",
+    "addr": "新潟市中央区古町通9-1485 アラカワビル1F",
     "note_ja": "深夜まで開く寿司店、握り110〜480円",
     "note_en": "Late-night sushi; nigiri from ¥110 to ¥480",
     "note_fr": "Sushis jusqu'au bout de la nuit ; nigiri de 110 à 480 ¥",
@@ -1240,24 +1240,24 @@
     "precision": "district"
   },
   {
-    "slug": "simple",
+    "slug": "lush",
     "genre": "bar",
-    "ja": "BAR Simple",
-    "en": "BAR Simple",
-    "addr": "新潟市中央区西堀前通8番町",
-    "note_ja": "1997年開業の日本酒・焼酎バー",
-    "note_en": "A sake and shochu bar since 1997",
-    "note_fr": "Bar à saké et shōchū depuis 1997",
+    "ja": "Food&Bar Lush",
+    "en": "Food&Bar Lush",
+    "addr": "新潟市中央区東堀通8-1425 玉家ビル1F",
+    "note_ja": "野菜ソムリエのオーナーが自家野菜の手作り料理を出すバー",
+    "note_en": "A bar serving homemade dishes with the owner-farmer's own vegetables",
+    "note_fr": "Un bar servant des plats maison aux légumes du potager du patron",
     "hours": [
-      "19:00–翌1:00",
-      "19:00–01:00",
-      "19:00–01:00"
+      "18:00–翌2:00（日曜休）",
+      "18:00–02:00 (closed Sun)",
+      "18:00–02:00 (fermé dim.)"
     ],
-    "url": "https://tabelog.com/niigata/A1501/A150101/15008881/",
+    "url": "https://tabelog.com/niigata/A1501/A150101/15019044/",
     "rec": null,
-    "lat": 37.924416,
-    "lng": 139.044647,
-    "precision": "district"
+    "lat": 37.92378,
+    "lng": 139.04612,
+    "precision": "full"
   },
   {
     "slug": "comrado",
@@ -1821,7 +1821,7 @@
   },
   {
     "slug": "juban",
-    "genre": "other",
+    "genre": "soba",
     "ja": "ラーメン拾番",
     "en": "Ramen Jūban",
     "addr": "新潟市中央区古町通10-1664",
