@@ -1042,6 +1042,62 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     139.045135,
+     37.924313
+    ]
+   },
+   "properties": {
+    "slug": "hyakusai",
+    "genre": "jp",
+    "ja": "居酒屋 ひゃくさい",
+    "en": "Izakaya Hyakusai",
+    "addr": "新潟市中央区古町通8-1508 永喜多ビル2F",
+    "note_ja": "居酒屋サンドネの姉妹店。佐渡直送の鮮魚と地場野菜で作る、ジャンルにとらわれない創作イタリアンの居酒屋",
+    "note_en": "Sister shop of Izakaya Sandone — an izakaya serving genre-crossing creative Italian built on Sado fish delivered daily and local vegetables",
+    "note_fr": "Maison sœur de l'izakaya Sandone — cuisine italienne créative et sans frontières, poissons de Sado livrés chaque jour et légumes du terroir",
+    "hours": [
+     "17:00–23:00（土日は15:00–、月曜休）",
+     "17:00–23:00 (from 15:00 Sat & Sun; closed Mon)",
+     "17:00–23:00 (dès 15:00 sam. et dim. ; fermé lun.)"
+    ],
+    "url": "https://www.instagram.com/hyakusai.furumachi/",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.047607,
+     37.923416
+    ]
+   },
+   "properties": {
+    "slug": "takashi",
+    "genre": "jp",
+    "ja": "佐渡自然食レストラン 貴支",
+    "en": "Sado Shizenshoku Restaurant Takashi",
+    "addr": "新潟市中央区本町通8-1304-2 アビタシオンビルM 2F",
+    "note_ja": "佐渡出身の店主が佐渡の食材を無添加で仕上げる和食。昼は日替御膳、夜はいごねりや島内5蔵の酒も",
+    "note_en": "Additive-free Japanese cooking from the Sado-born chef's home island — daily set lunches, and at night island dishes like igoneri with sake from Sado's five breweries",
+    "note_fr": "Cuisine japonaise sans additifs, composée des produits de Sado par un chef né sur l'île — formules du jour le midi, igoneri et sakés des cinq brasseries de l'île le soir",
+    "hours": [
+     "11:00–14:00／16:00–22:00（日曜・第3水曜休）",
+     "11:00–14:00, 16:00–22:00 (closed Sun & 3rd Wed)",
+     "11:00–14:00, 16:00–22:00 (fermé dim. et 3e mer.)"
+    ],
+    "url": "https://www.instagram.com/sado_takashi0901",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      139.046249,
      37.924114
     ]
@@ -2526,34 +2582,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.044907,
-     37.91972
-    ]
-   },
-   "properties": {
-    "slug": "miyakoya",
-    "genre": "other",
-    "ja": "みやこや 東堀店",
-    "en": "Miyakoya (Higashibori)",
-    "addr": "新潟市中央区東堀通5-430-1",
-    "note_ja": "焼鳥ともつ煮込みの店",
-    "note_en": "Yakitori and simmered offal",
-    "note_fr": "Yakitori et abats mijotés",
-    "hours": [
-     "16:00–22:00（日祝休）",
-     "16:00–22:00 (closed Sun & holidays)",
-     "16:00–22:00 (fermé dim. et fériés)"
-    ],
-    "url": "https://miyakoya-niigata.co.jp/",
-    "rec": null,
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.045761,
      37.926643
     ]
@@ -2629,34 +2657,6 @@
      "17:30–22:00 (fermé lun.)"
     ],
     "url": "http://www.kyosagami.jp/five/",
-    "rec": null,
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.045715,
-     37.924438
-    ]
-   },
-   "properties": {
-    "slug": "kushinobo",
-    "genre": "other",
-    "ja": "新潟ふるまち 串の房",
-    "en": "Niigata Furumachi Kushinobō",
-    "addr": "新潟市中央区古町通8-1446-2",
-    "note_ja": "串焼きの店",
-    "note_en": "A kushiyaki skewer house",
-    "note_fr": "Maison de brochettes kushiyaki",
-    "hours": [
-     "—",
-     "—",
-     "—"
-    ],
-    "url": "https://tabelog.com/niigata/A1501/A150101/15009686/",
     "rec": null,
     "precision": "full"
    }
