@@ -144,6 +144,52 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     139.063049,
+     37.918251
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi Arai",
+    "name_ja": "すし あらい",
+    "cat": "counter",
+    "area_en": "Higashibandai-cho, Chuo-ku",
+    "area_ja": "中央区・東万代町",
+    "note_en": "Reservation-only · 6-seat counter · courses ¥18,000 / ¥23,000 · Michelin Guide Niigata 2020 one star · closed Wednesdays",
+    "note_ja": "完全予約制｜カウンター6席｜コース 18,000円／23,000円｜ミシュランガイド新潟2020 1つ星｜水曜定休",
+    "area_fr": "Higashibandai-cho, Chuo-ku",
+    "note_fr": "Sur réservation · comptoir de 6 places · menus 18 000 / 23 000 ¥ · une étoile au Guide Michelin Niigata 2020 · fermé le mercredi",
+    "url": "https://sushi-arai-niigata.com/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.011932,
+     37.906731
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi-dokoro Megumi",
+    "name_ja": "寿し処 恵",
+    "cat": "counter",
+    "area_en": "Shinano-cho, Chuo-ku, near Sekiya Station",
+    "area_ja": "中央区・信濃町（関屋駅近く）",
+    "note_en": "Whole wild tuna bought in · dinner omakase only · guide ¥10,000–14,999 · Tabelog Top 100 Sushi EAST 2022 · closed Wednesdays",
+    "note_ja": "天然マグロを一本買い｜夜はおまかせのみ｜目安 10,000〜14,999円｜寿司EAST百名店2022｜水曜定休",
+    "area_fr": "Shinano-cho, Chuo-ku, près de la gare de Sekiya",
+    "note_fr": "Thon sauvage acheté entier · omakase uniquement le soir · repère 10 000–14 999 ¥ · Top 100 Sushi EAST 2022 · fermé le mercredi",
+    "url": "https://tabelog.com/niigata/A1501/A150101/15010035/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      139.0461681,
      37.9247868
     ]
@@ -328,6 +374,75 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     139.045349,
+     37.92318
+    ]
+   },
+   "properties": {
+    "name_en": "Kanekiyo (Furumachi Honten)",
+    "name_ja": "寿司・割烹 かね清 古町本店",
+    "cat": "classic",
+    "area_en": "Furumachi-dori 7, Chuo-ku",
+    "area_ja": "中央区・古町通7",
+    "note_en": "Sushi-kappo · weekday dinners until 24:30, lunch on weekends & holidays · 'jo nama nigiri' ¥2,500 · guide ¥6,000–7,999 · open almost every day",
+    "note_ja": "寿司割烹｜平日は夜のみ24:30まで、土日祝は昼営業あり｜上生にぎり 2,500円｜目安 6,000〜7,999円｜ほぼ無休",
+    "area_fr": "Furumachi-dori 7, Chuo-ku",
+    "note_fr": "Sushi-kappo · dîners en semaine jusqu'à 24 h 30, déjeuner le week-end · nigiri « jo nama » 2 500 ¥ · repère 6 000–7 999 ¥ · ouvert presque tous les jours",
+    "url": "http://www.kanesei-gp.co.jp/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.049622,
+     37.919853
+    ]
+   },
+   "properties": {
+    "name_en": "Sushisei Yagasaki",
+    "name_ja": "すし清 矢ヶ﨑",
+    "cat": "classic",
+    "area_en": "Ishizuechodori 1, Chuo-ku, near Hotel Okura",
+    "area_ja": "中央区・礎町通1（ホテルオークラ近く）",
+    "note_en": "Since 1954, renewed in 2017 · 'Kiwami' set ¥4,950 · nigiri course ¥11,000 · closed Mondays",
+    "note_ja": "1954年創業、2017年に代替わり｜「極み」10貫 4,950円｜握りコース 11,000円｜月曜定休",
+    "area_fr": "Ishizuechodori 1, Chuo-ku, près de l'hôtel Okura",
+    "note_fr": "Depuis 1954, repris en 2017 · menu « Kiwami » 4 950 ¥ · menu nigiri 11 000 ¥ · fermé le lundi",
+    "url": "https://tabelog.com/niigata/A1501/A150101/15020145/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.051117,
+     37.920017
+    ]
+   },
+   "properties": {
+    "name_en": "Tomizushi Zen (Hotel Okura)",
+    "name_ja": "富寿し 膳",
+    "cat": "classic",
+    "area_en": "Hotel Okura Niigata 3F, Kawabata-cho, Chuo-ku",
+    "area_ja": "中央区・川端町 ホテルオークラ新潟3F",
+    "note_en": "Tomizushi's hotel counter by Bandai Bridge · sets ¥3,000–7,200 · counter 10 seats · closed Wednesdays & Thursdays",
+    "note_ja": "富寿しのホテルカウンター｜御膳 3,000〜7,200円｜カウンター10席｜水・木定休",
+    "area_fr": "Hôtel Okura Niigata, 3e étage, Kawabata-cho, Chuo-ku",
+    "note_fr": "Le comptoir d'hôtel de Tomizushi, près du pont Bandai · menus 3 000–7 200 ¥ · comptoir de 10 places · fermé mer. & jeu.",
+    "url": "https://www.tomizushi.com/shop/tomizushi-zen/hotel-okura/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      139.06121,
      37.91614
     ]
@@ -389,6 +504,75 @@
     "area_fr": "Nuttari, Chuo-ku",
     "note_fr": "~90 ans à Nuttari · berceau du bol de nodoguro grillé · menu « Kiwami » 4 950 ¥ · fermé lun. & mar.",
     "url": "http://www.sekaisushi.com/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.062775,
+     37.914082
+    ]
+   },
+   "properties": {
+    "name_en": "Chiyo Zushi",
+    "name_ja": "千代鮨",
+    "cat": "station",
+    "area_en": "Higashi-Odori 1, 4–5 min from Niigata Station",
+    "area_ja": "中央区・東大通1（新潟駅から徒歩4〜5分）",
+    "note_en": "Since 1969 · 'Kiwami' set ¥4,950 · Tabelog Top 100 Sushi EAST 2025 · Gastronomy Award 2026 Gold · closed Sundays",
+    "note_ja": "1969年創業｜「極み」セット 4,950円｜寿司EAST百名店2025｜ガストロノミーアワード2026 GOLD｜日曜定休",
+    "area_fr": "Higashi-Odori 1, à 4–5 min de la gare de Niigata",
+    "note_fr": "Depuis 1969 · menu « Kiwami » 4 950 ¥ · Top 100 Sushi EAST 2025 · Gastronomy Award 2026 Gold · fermé le dimanche",
+    "url": "https://chiyozushi-niigata.gorp.jp/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.05928,
+     37.913418
+    ]
+   },
+   "properties": {
+    "name_en": "Benkei no Nakidokoro",
+    "name_ja": "弁慶の泣き処",
+    "cat": "station",
+    "area_en": "Benten 1, 3 min from Niigata Station",
+    "area_ja": "中央区・弁天1（新潟駅から徒歩3分）",
+    "note_en": "Benkei group's sushi, sashimi & tempura dining · Sado fish · guide lunch ~¥1,999 / dinner ~¥4,999 · closed Mondays",
+    "note_ja": "弁慶グループの寿司・天ぷらダイニング｜佐渡の魚｜目安 昼〜1,999円／夜〜4,999円｜月曜定休",
+    "area_fr": "Benten 1, à 3 min de la gare de Niigata",
+    "note_fr": "Le restaurant sushi & tempura du groupe Benkei · poissons de Sado · repères : déjeuner ~1 999 ¥ / dîner ~4 999 ¥ · fermé le lundi",
+    "url": "https://sado-benkei.com/nakidokoro/",
+    "precision": "DISTRICT_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.061783,
+     37.914249
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi Kokoya",
+    "name_ja": "寿しここ屋",
+    "cat": "station",
+    "area_en": "Higashi-Odori 1, 2 min from Niigata Station",
+    "area_ja": "中央区・東大通1（新潟駅万代口から徒歩2分）",
+    "note_en": "Tiny one-chef counter · 10 pieces ¥1,500 · no reservations · guide ¥3,000–3,999 · closed Mondays",
+    "note_ja": "大将ひとりの小さなカウンター｜握り10貫 1,500円｜予約不可｜目安 3,000〜3,999円｜月曜定休",
+    "area_fr": "Higashi-Odori 1, à 2 min de la gare de Niigata",
+    "note_fr": "Petit comptoir d'un seul chef · 10 pièces 1 500 ¥ · sans réservation · repère 3 000–3 999 ¥ · fermé le lundi",
+    "url": "https://tabelog.com/niigata/A1501/A150101/15017780/",
     "precision": "FULL_ADDRESS_GSI"
    }
   },
@@ -459,6 +643,52 @@
     "note_fr": "Adresse nocturne de Furumachi · ouvert jusqu'à 3 h 30–4 h · repère 3 000–3 999 ¥ · fermé le dimanche",
     "url": "https://tabelog.com/niigata/A1501/A150101/15001734/",
     "precision": "PLACE_LISTING"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.060867,
+     37.913288
+    ]
+   },
+   "properties": {
+    "name_en": "Kotobuki Sushi c/o Maimon Sushi",
+    "name_ja": "ことぶき寿司 c/o まいもん寿司",
+    "cat": "casual",
+    "area_en": "CoCoLo Niigata WEST SIDE 1F, Niigata Station building",
+    "area_ja": "中央区・花園1 CoCoLo新潟 WEST SIDE 1F（新潟駅直結）",
+    "note_en": "Kotobuki × Maimon Sushi collaboration · market fish every morning · lunch around ¥3,000 · open daily 11:00–22:00",
+    "note_ja": "ことぶき寿司×まいもん寿司のコラボ店｜毎朝市場から直送｜ランチ 3,000円ほど｜無休 11:00〜22:00",
+    "area_fr": "CoCoLo Niigata WEST SIDE, 1er étage, bâtiment de la gare",
+    "note_fr": "Collaboration Kotobuki × Maimon Sushi · poisson du marché chaque matin · déjeuner ~3 000 ¥ · ouvert tous les jours 11 h–22 h",
+    "url": "https://www.kotobukisushi.com/",
+    "precision": "FULL_ADDRESS_GSI"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.129623,
+     37.88472
+    ]
+   },
+   "properties": {
+    "name_en": "Sushi Kotobuki (Wholesale Market)",
+    "name_ja": "佐渡前握り 鮨寿",
+    "cat": "casual",
+    "area_en": "Niigata City Central Wholesale Market, Konan-ku",
+    "area_ja": "江南区・新潟市中央卸売市場内",
+    "note_en": "Inside the wholesale market · buys at the market · sets from ¥1,650 (7 pieces) · mornings & lunch only · closed Sundays & holidays",
+    "note_ja": "中央卸売市場の中｜市場で直接買付け｜7貫 1,650円から｜朝と昼のみ｜日・祝定休",
+    "area_fr": "Marché de gros central de Niigata, Konan-ku",
+    "note_fr": "Dans le marché de gros · achats sur place · assortiments dès 1 650 ¥ (7 pièces) · matin & déjeuner seulement · fermé dim. & jours fériés",
+    "url": "https://www.sushikotobuki.com/",
+    "precision": "FULL_ADDRESS_GSI"
    }
   }
  ]
