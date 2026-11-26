@@ -57,6 +57,17 @@
   figcaption { font-size:.82rem; color:#5c665f; margin-top:.35rem; }
   .cols { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
   @media (max-width:640px){ .cols { grid-template-columns:1fr; } }
+  .guides { display:grid; grid-template-columns:repeat(3,1fr); gap:.9rem; margin-top:1.4rem; }
+  .gcard { background:var(--card); border:1px solid #ddd5c3; border-top:5px solid var(--vermillion); padding:1rem 1.1rem 1.1rem; display:flex; flex-direction:column; }
+  .gcard img.gimg { width:calc(100% + 2.2rem); margin:-1rem -1.1rem .9rem; aspect-ratio:3/2; object-fit:cover; display:block; }
+  .gcard .stat { font-size:2.1rem; line-height:1; color:var(--accent); font-weight:bold; }
+  .gcard h3 { margin:.5rem 0 .35rem; font-size:1.12rem; line-height:1.35; }
+  .gcard p { margin:0; font-size:.93rem; flex:1; }
+  .gactions { display:flex; gap:.5rem; flex-wrap:wrap; margin-top:.95rem; }
+  .gbtn { display:inline-block; padding:.42rem .9rem; border:1px solid var(--accent); border-radius:999px; font-size:.9rem; text-decoration:none; }
+  .gbtn.primary { background:var(--accent); color:#fff; }
+  .gbtn:hover { text-decoration:underline; }
+  @media (max-width:640px){ .guides { grid-template-columns:1fr; } }
   ul { padding-left:1.2rem; }
   a { color:var(--accent); }
   footer { border-top:1px solid #ddd5c3; margin-top:3rem; padding-top:1.2rem; font-size:.85rem; color:#5c665f; }
@@ -121,6 +132,34 @@
 </section>
 
 <section>
+  <h2>ガイドと地図</h2>
+  <p>このページの土台になっている全名簿です。酒蔵、古町、寿司――それぞれに地図も用意しました。</p>
+  <div class="guides">
+    <div class="gcard">
+      <img class="gimg" src="images/guide_sake.jpg" alt="新潟市・今代司酒造（木版画風イラスト）">
+      <div class="stat">92</div>
+      <h3>新潟の酒蔵92軒</h3>
+      <p>県内の酒蔵を地域別に全掲載。創業年、見学の可否、公式サイトへのリンク付きです。</p>
+      <div class="gactions"><a class="gbtn primary" href="sake-ja.html">一覧を見る</a><a class="gbtn" href="map-ja.html">地図を開く</a></div>
+    </div>
+    <div class="gcard">
+      <img class="gimg" src="images/guide_furumachi.jpg" alt="新潟市古町の料亭「鍋茶屋」">
+      <div class="stat">100</div>
+      <h3>古町100店</h3>
+      <p>花街・古町で食べる、飲む、100店。筆者が実際に行ったおすすめ12店も紹介しています。</p>
+      <div class="gactions"><a class="gbtn primary" href="furumachi-ja.html">一覧を見る</a><a class="gbtn" href="furumachi-map-ja.html">地図を開く</a></div>
+    </div>
+    <div class="gcard">
+      <img class="gimg" src="images/guide_sushi.jpg" alt="にぎり寿司">
+      <div class="stat">7</div>
+      <h3>新潟市の寿司</h3>
+      <p>魚も米も、新潟のもの。おまかせの名店から佐渡の回転寿司まで、7店の特集です。</p>
+      <div class="gactions"><a class="gbtn primary" href="sushi-ja.html">特集を読む</a><a class="gbtn" href="sushi-map-ja.html">地図を開く</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
   <h2>雪国と、黄金の島</h2>
   <p>新潟は、人が住む場所としては世界有数の豪雪地です。山間部では雪が12メートル（40フィート）積もることもあり、スキー場は<strong>55か所</strong>。東京から新幹線で約1時間の湯沢から、妙高までが並びます。沖には<strong>佐渡島</strong>があり、佐渡金山は2024年にユネスコの世界文化遺産に登録されました。2027年夏、鼓童を中心とした「アース・セレブレーション」は40回目を迎えます。復活したトキや、たらい舟でも知られる島です。</p>
   <p>湯沢は、その近さも圧巻です。越後湯沢駅から数分で、ゲレンデへ向かうロープウェイが出ています。さらに冬になると、ゲレンデ直結の新幹線駅<strong>「ガーラ湯沢駅」</strong>が開業します。改札を出たら、もうゴンドラです。</p>
@@ -175,7 +214,7 @@
 <footer>
   <p>新潟で作った独立したガイドです。事実は両誌の原典（2026年10〜11月）で確認しています。</p>
   <p>Powered by <a href="https://public-dl.github.io/wooltech/">WoolTech</a></p>
-  <p>写真（Wikimedia Commonsより）：清津峡 ― Araisyohei, CC BY 4.0 ／ 星峠の棚田 ― Nihongo1234, CC BY-SA 4.0 ／ 花咲ける妻有 ― Makoto Shimokoshi, CC BY 2.0（作品 © 草間彌生）／ まつだい「農舞台」 ― Kentaro Ohno, CC BY 2.0 ／ ぽんしゅ館（イラスト：meow0623の写真より、CC BY-SA 2.0） ／ 料理のイラスト（原写真：へぎそば ― Yuki Shimazu, CC BY-SA 2.0 ／ タレかつ丼 ― Siriusplot, CC BY-SA 3.0 ／ 半身揚げ ― 新潟観光コンベンション協会）。</p>
+  <p>写真（Wikimedia Commonsより）：清津峡 ― Araisyohei, CC BY 4.0 ／ 星峠の棚田 ― Nihongo1234, CC BY-SA 4.0 ／ 花咲ける妻有 ― Makoto Shimokoshi, CC BY 2.0（作品 © 草間彌生）／ まつだい「農舞台」 ― Kentaro Ohno, CC BY 2.0 ／ ぽんしゅ館（イラスト：meow0623の写真より、CC BY-SA 2.0） ／ 料理のイラスト（原写真：へぎそば ― Yuki Shimazu, CC BY-SA 2.0 ／ タレかつ丼 ― Siriusplot, CC BY-SA 3.0 ／ 半身揚げ ― 新潟観光コンベンション協会） ／ ガイドカードのイラスト（今代司酒造（イラスト：PR TIMES掲載写真より）／ 鍋茶屋 ― Suikotei, CC BY 4.0 ／ にぎり寿司 ― Asok5, CC BY-SA 2.0）。</p>
 </footer>
 </main>
 <script data-goatcounter="https://niigata2027.goatcounter.com/count"
