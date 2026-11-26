@@ -1014,6 +1014,34 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     139.045715,
+     37.924438
+    ]
+   },
+   "properties": {
+    "slug": "shingen",
+    "genre": "jp",
+    "ja": "居酒屋 心玄",
+    "en": "Izakaya Shingen",
+    "addr": "新潟市中央区古町通8-1446 一蔵ビル2F",
+    "note_ja": "一蔵ビル2階の隠れ家居酒屋。新潟産の活ズワイガニや佐渡牛など旬の味",
+    "note_en": "A hideaway izakaya on the 2nd floor of the Ichizō Building; seasonal Niigata fare — snow crab, Sado beef, sashimi",
+    "note_fr": "Izakaya intimiste au 2e étage de l'immeuble Ichizō ; produits de saison de Niigata — crabe des neiges, bœuf de Sado, sashimi",
+    "hours": [
+     "18:00–翌1:00（日曜休）",
+     "18:00–1:00 (closed Sun)",
+     "18:00–1:00 (fermé dim.)"
+    ],
+    "url": "https://izakayashingen.owst.jp/",
+    "rec": null,
+    "precision": "full"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      139.046249,
      37.924114
     ]
@@ -1966,34 +1994,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.044846,
-     37.923248
-    ]
-   },
-   "properties": {
-    "slug": "sakuratei",
-    "genre": "soba",
-    "ja": "立ち食いうどん・そば 咲良亭",
-    "en": "Sakuratei",
-    "addr": "新潟市中央区古町通7-934-2",
-    "note_ja": "駄菓子店内の立ち食い。タレかつ丼500円",
-    "note_en": "Standing noodles inside a candy shop; tare-katsudon for ¥500",
-    "note_fr": "Nouilles debout dans une confiserie ; tare-katsudon à 500 ¥",
-    "hours": [
-     "11:00–18:00（日曜休）",
-     "11:00–18:00 (closed Sun)",
-     "11:00–18:00 (fermé dim.)"
-    ],
-    "url": "https://marutakekoizumi.com/",
-    "rec": null,
-    "precision": "full"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      139.043961,
      37.926235
     ]
@@ -2246,25 +2246,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.039581,
-     37.916382
+     139.049026,
+     37.920803
     ]
    },
    "properties": {
-    "slug": "iry",
+    "slug": "bit",
     "genre": "west",
-    "ja": "オリエントイタリアン イリィ",
-    "en": "Orient Italian Iry",
-    "addr": "新潟市中央区西堀前通1-694",
-    "note_ja": "アジア×イタリアンの融合",
-    "note_en": "A fusion of Asia and Italy",
-    "note_fr": "Fusion de l'Asie et de l'Italie",
+    "ja": "燕三条イタリアン Bit 新潟店",
+    "en": "Tsubamesanjo Bit Niigata",
+    "addr": "新潟市中央区新島町通1ノ町1977",
+    "note_ja": "燕三条の金物と県産食材を味わうイタリアン",
+    "note_en": "Italian dining served with Tsubamesanjo metalware and Niigata produce",
+    "note_fr": "Cuisine italienne, arts de la table de Tsubamesanjo et produits de Niigata",
     "hours": [
-     "11:30–14:30／18:00–22:00（不定休）",
-     "11:30–14:30, 18:00–22:00 (irregular holidays)",
-     "11:30–14:30, 18:00–22:00 (fermetures irrégulières)"
+     "11:30–14:30（土日祝は15:00まで）／18:00–22:00（火曜ほか定休）",
+     "11:30–14:30 (Sat, Sun & holidays to 15:00), 18:00–22:00 (closed Tuesdays and some other days)",
+     "11:30–14:30 (sam., dim. et jours fériés jusqu'à 15:00), 18:00–22:00 (fermé le mardi et certains autres jours)"
     ],
-    "url": "https://orientitalianiry.com/",
+    "url": "https://bit2013.com/restaurant/restaurant-niigata/",
     "rec": null,
     "precision": "full"
    }
