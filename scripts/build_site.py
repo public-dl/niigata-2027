@@ -1003,7 +1003,7 @@ function draw() {{
 const full = draw();
 map.fitBounds(full.getBounds().pad(0.05));
 document.getElementById('toursOnly').addEventListener('change', draw);
-const LABEL_ZOOM = 12;
+const LABEL_ZOOM = 10;
 let namesOverride = null;
 const namesBox = document.getElementById('showNames');
 function updateLabels() {{
@@ -1199,8 +1199,8 @@ def main():
         if "★" in text:
             fail(f"{name}: contains a ★ character, which must never appear")
     for fname in ("map.html", "map-ja.html", "map-fr.html"):
-        if "LABEL_ZOOM = 12" not in outputs[fname]:
-            fail(f"{fname}: brewery map must contain 'LABEL_ZOOM = 12'")
+        if "LABEL_ZOOM = 10" not in outputs[fname]:
+            fail(f"{fname}: brewery map must contain 'LABEL_ZOOM = 10'")
     for fname in ("furumachi-map.html", "furumachi-map-ja.html", "furumachi-map-fr.html"):
         if "LABEL_ZOOM = 16" not in outputs[fname]:
             fail(f"{fname}: Furumachi map must contain 'LABEL_ZOOM = 16'")
