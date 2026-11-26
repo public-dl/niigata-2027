@@ -1658,27 +1658,27 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     139.045395,
-     37.924217
+     139.048442,
+     37.927506
     ]
    },
    "properties": {
-    "slug": "teardrop",
-    "genre": "bar",
-    "ja": "Bar Tear Drop",
-    "en": "Bar Tear Drop",
-    "addr": "新潟市中央区古町通8番町（2F）",
-    "note_ja": "女性バーテンダーのカクテルバー",
-    "note_en": "A cocktail bar run by a woman bartender",
-    "note_fr": "Bar à cocktails tenu par une barmaid",
+    "slug": "ohashiya",
+    "genre": "jp",
+    "ja": "大橋屋 本町茶寮",
+    "en": "Ōhashiya Honmachi Saryō",
+    "addr": "新潟市中央区本町通11-1841",
+    "note_ja": "慶応3年創業の料亭の新館、本館は登録有形文化財",
+    "note_en": "The new house of a ryōtei founded in 1867; the main hall is a registered heritage building",
+    "note_fr": "La maison nouvelle d'un ryōtei fondé en 1867 ; le bâtiment principal est classé",
     "hours": [
-     "月–土 20:00–翌5:00",
-     "Mon–Sat 20:00–05:00",
-     "lun.–sam. 20:00–05:00"
+     "11:00–21:00（日・祝は16:00まで、水曜休、完全予約制）",
+     "11:00–21:00 (Sun & holidays to 16:00; closed Wed; reservations only)",
+     "11 h – 21 h (dim. et fériés jusqu'à 16 h ; fermé mer. ; sur réservation)"
     ],
-    "url": "https://r947100.gorp.jp/",
+    "url": "http://www.oohashiya.jp/",
     "rec": null,
-    "precision": "district"
+    "precision": "full"
    }
   },
   {
