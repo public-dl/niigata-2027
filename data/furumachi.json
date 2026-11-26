@@ -280,26 +280,6 @@
   "precision": "district"
  },
  {
-  "slug": "misui",
-  "genre": "jp",
-  "ja": "お料理 味酔",
-  "en": "Oryōri Misui",
-  "addr": "新潟市中央区東堀通8番町",
-  "note_ja": "加賀料理と旬の郷土料理",
-  "note_en": "Kaga cooking and seasonal local dishes",
-  "note_fr": "Cuisine de Kaga et plats locaux de saison",
-  "hours": [
-   "—",
-   "—",
-   "—"
-  ],
-  "url": "https://tabelog.com/niigata/A1501/A150101/15008832/",
-  "rec": null,
-  "lat": 37.924114,
-  "lng": 139.046234,
-  "precision": "district"
- },
- {
   "slug": "nihonbashi",
   "genre": "jp",
   "ja": "新潟 日本橋",
@@ -1737,6 +1717,26 @@
   "rec": null,
   "lat": 37.924088,
   "lng": 139.03714,
+  "precision": "full"
+ },
+ {
+  "slug": "seikoan-bettei",
+  "genre": "west",
+  "ja": "FRENCH TEPPAN 静香庵 別邸 涵養荘",
+  "en": "FRENCH TEPPAN Seikōan Bettei Kanyōsō",
+  "addr": "新潟市中央区営所通二番町692-6",
+  "note_ja": "旧副知事公舎を改装した邸宅レストラン。フレンチと鉄板焼きの融合",
+  "note_en": "French cooking meets teppanyaki in the renovated former vice-governor's residence",
+  "note_fr": "Cuisine française et teppanyaki dans l'ancienne résidence du vice-gouverneur, rénovée",
+  "hours": [
+   "11:30–14:30／17:30–22:00（月曜休）",
+   "11:30–14:30, 17:30–22:00 (closed Mon)",
+   "11:30–14:30, 17:30–22:00 (fermé lun.)"
+  ],
+  "url": "https://www.ni-grand.co.jp/restaurant/kanyoso/",
+  "rec": null,
+  "lat": 37.923225,
+  "lng": 139.038376,
   "precision": "full"
  },
  {

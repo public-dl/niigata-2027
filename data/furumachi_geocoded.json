@@ -1,0 +1,802 @@
+{
+ "kokon": {
+  "lat": 37.924416,
+  "lng": 139.044647,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀前通八番町",
+  "address": "新潟市中央区西堀前通8番町",
+  "query": "新潟県新潟市中央区西堀前通8番町"
+ },
+ "jikon": {
+  "lat": 37.925045,
+  "lng": 139.047058,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀前通九番町１３８４番地",
+  "address": "新潟市中央区東堀前通9-1384-3",
+  "query": "新潟県新潟市中央区東堀前通9番町1384"
+ },
+ "saito": {
+  "lat": 37.925697,
+  "lng": 139.045807,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通九番町",
+  "address": "新潟市中央区古町通9番町（路地）",
+  "query": "新潟県新潟市中央区古町通9番町"
+ },
+ "suzuya": {
+  "lat": 37.926144,
+  "lng": 139.045105,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀前通九番町１５４０番地",
+  "address": "新潟市中央区西堀前通9-1540",
+  "query": "新潟県新潟市中央区西堀前通9番町1540"
+ },
+ "yukihana": {
+  "lat": 37.925568,
+  "lng": 139.045486,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通九番町１４８１番地",
+  "address": "新潟市中央区古町通9-1481-1",
+  "query": "新潟県新潟市中央区古町通9番町1481"
+ },
+ "nabedyaya": {
+  "lat": 37.924114,
+  "lng": 139.046234,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通八番町",
+  "address": "新潟市中央区東堀通8-1420",
+  "query": "新潟県新潟市中央区東堀通8番町1420"
+ },
+ "ikinariya": {
+  "lat": 37.926456,
+  "lng": 139.040268,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西大畑町５７３番地",
+  "address": "新潟市中央区西大畑町573",
+  "query": "新潟県新潟市中央区西大畑町573"
+ },
+ "yahiko": {
+  "lat": 37.925652,
+  "lng": 139.046738,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀通九番町",
+  "address": "新潟市中央区東堀通9番町",
+  "query": "新潟県新潟市中央区東堀通9番町"
+ },
+ "hotaru": {
+  "lat": 37.92284,
+  "lng": 139.04425,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀前通七番町",
+  "address": "新潟市中央区西堀前通7番町",
+  "query": "新潟県新潟市中央区西堀前通7番町"
+ },
+ "hasegawa": {
+  "lat": 37.925652,
+  "lng": 139.046738,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀通九番町",
+  "address": "新潟市中央区東堀通9番町",
+  "query": "新潟県新潟市中央区東堀通9番町"
+ },
+ "chihara": {
+  "lat": 37.925362,
+  "lng": 139.0466,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通九番町１４０７番地",
+  "address": "新潟市中央区東堀通9-1407-3 プロジェクト3 1F",
+  "query": "新潟県新潟市中央区東堀通9番町1407"
+ },
+ "ebinohige": {
+  "lat": 37.92384,
+  "lng": 139.045547,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１４３３番地",
+  "address": "新潟市中央区古町通8-1433-2",
+  "query": "新潟県新潟市中央区古町通8番町1433"
+ },
+ "komon": {
+  "lat": 37.925652,
+  "lng": 139.046738,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀通九番町",
+  "address": "新潟市中央区東堀通9番町",
+  "query": "新潟県新潟市中央区東堀通9番町"
+ },
+ "gojo": {
+  "lat": 37.925697,
+  "lng": 139.045807,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通九番町",
+  "address": "新潟市中央区古町通9番町",
+  "query": "新潟県新潟市中央区古町通9番町"
+ },
+ "nihonbashi": {
+  "lat": 37.924217,
+  "lng": 139.045395,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通八番町",
+  "address": "新潟市中央区古町通8番町（新潟日本橋ビル6F）",
+  "query": "新潟県新潟市中央区古町通8番町"
+ },
+ "kiguchi": {
+  "lat": 37.927002,
+  "lng": 139.046036,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通十番町",
+  "address": "新潟市中央区古町通10番町",
+  "query": "新潟県新潟市中央区古町通10番町"
+ },
+ "saisaburo": {
+  "lat": 37.928249,
+  "lng": 139.046173,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通十一番町",
+  "address": "新潟市中央区古町通11番町",
+  "query": "新潟県新潟市中央区古町通11番町"
+ },
+ "goro": {
+  "lat": 37.924217,
+  "lng": 139.045395,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通八番町",
+  "address": "新潟市中央区古町通8番町",
+  "query": "新潟県新潟市中央区古町通8番町"
+ },
+ "nakaya": {
+  "lat": 37.925697,
+  "lng": 139.045807,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通九番町",
+  "address": "新潟市中央区古町通9番町",
+  "query": "新潟県新潟市中央区古町通9番町"
+ },
+ "kuwabara": {
+  "lat": 37.925697,
+  "lng": 139.045807,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通九番町",
+  "address": "新潟市中央区古町通9番町",
+  "query": "新潟県新潟市中央区古町通9番町"
+ },
+ "kuishinbo": {
+  "lat": 37.925697,
+  "lng": 139.045807,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通九番町",
+  "address": "新潟市中央区古町通9番町",
+  "query": "新潟県新潟市中央区古町通9番町"
+ },
+ "hinoto": {
+  "lat": 37.926109,
+  "lng": 139.046173,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通九番町１４６８番地",
+  "address": "新潟市中央区古町通9-1468",
+  "query": "新潟県新潟市中央区古町通9番町1468"
+ },
+ "rikiya": {
+  "lat": 37.92318,
+  "lng": 139.045349,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通七番町１０１１番地",
+  "address": "新潟市中央区古町通7-1011-2",
+  "query": "新潟県新潟市中央区古町通7番町1011"
+ },
+ "ichishime": {
+  "lat": 37.925362,
+  "lng": 139.0466,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通九番町１３９５番地",
+  "address": "新潟市中央区東堀通9-1395",
+  "query": "新潟県新潟市中央区東堀通9番町1395"
+ },
+ "mukko": {
+  "lat": 37.924747,
+  "lng": 139.044739,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀前通八番町１５２３番地",
+  "address": "新潟市中央区西堀前通8-1523-1",
+  "query": "新潟県新潟市中央区西堀前通8番町1523"
+ },
+ "tanimatsu": {
+  "lat": 37.924328,
+  "lng": 139.04689,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀前通八番町１３７６番地",
+  "address": "新潟市中央区東堀前通8-1376 真島ビル1F",
+  "query": "新潟県新潟市中央区東堀前通8番町1376"
+ },
+ "araragi": {
+  "lat": 37.920586,
+  "lng": 139.045242,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通六番町１０５０番地",
+  "address": "新潟市中央区東堀通6番町1050-1 石田ビル1F",
+  "query": "新潟県新潟市中央区東堀通6番町1050"
+ },
+ "suzumura": {
+  "lat": 37.924313,
+  "lng": 139.045135,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１５０５番地",
+  "address": "新潟市中央区古町通8番町1505-1 2F",
+  "query": "新潟県新潟市中央区古町通8番町1505"
+ },
+ "hyotei": {
+  "lat": 37.924438,
+  "lng": 139.045715,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１４４８番地",
+  "address": "新潟市中央区古町通8-1448-2",
+  "query": "新潟県新潟市中央区古町通8番町1448"
+ },
+ "takai": {
+  "lat": 37.925362,
+  "lng": 139.0466,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通九番町１４０１番地",
+  "address": "新潟市中央区東堀通9番町1401",
+  "query": "新潟県新潟市中央区東堀通9番町1401"
+ },
+ "kakimasa": {
+  "lat": 37.925362,
+  "lng": 139.0466,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通九番町１４０７番地",
+  "address": "新潟市中央区東堀通9番町1407",
+  "query": "新潟県新潟市中央区東堀通9番町1407"
+ },
+ "acchan": {
+  "lat": 37.924313,
+  "lng": 139.045135,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１４８７番地",
+  "address": "新潟市中央区古町通8番町1487 三光ビル3F",
+  "query": "新潟県新潟市中央区古町通8番町1487"
+ },
+ "inakaya": {
+  "lat": 37.92527,
+  "lng": 139.045944,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通九番町１４５７番地",
+  "address": "新潟市中央区古町通9-1457",
+  "query": "新潟県新潟市中央区古町通9番町1457"
+ },
+ "machiya": {
+  "lat": 37.925362,
+  "lng": 139.0466,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通九番町１４０１番地",
+  "address": "新潟市中央区東堀通9番町1401",
+  "query": "新潟県新潟市中央区東堀通9番町1401"
+ },
+ "gin": {
+  "lat": 37.925362,
+  "lng": 139.0466,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通九番町１４０２番地",
+  "address": "新潟市中央区東堀通9番町1402-2 イーストモート1 1F",
+  "query": "新潟県新潟市中央区東堀通9番町1402"
+ },
+ "kyodai": {
+  "lat": 37.924114,
+  "lng": 139.046249,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通八番町１４２７番地",
+  "address": "新潟市中央区東堀通8-1427-2",
+  "query": "新潟県新潟市中央区東堀通8番町1427"
+ },
+ "tokiwa": {
+  "lat": 37.922375,
+  "lng": 139.047104,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区本町通七番町",
+  "address": "新潟市中央区本町通7-1151",
+  "query": "新潟県新潟市中央区本町通7番町1151"
+ },
+ "minato": {
+  "lat": 37.92527,
+  "lng": 139.045944,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通九番町１４５４番地",
+  "address": "新潟市中央区古町通9-1454",
+  "query": "新潟県新潟市中央区古町通9番町1454"
+ },
+ "benkeikai": {
+  "lat": 37.925697,
+  "lng": 139.045807,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通九番町",
+  "address": "新潟市中央区古町通9番町",
+  "query": "新潟県新潟市中央区古町通9番町"
+ },
+ "hatakeyama": {
+  "lat": 37.925697,
+  "lng": 139.045807,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通九番町",
+  "address": "新潟市中央区古町通9番町",
+  "query": "新潟県新潟市中央区古町通9番町"
+ },
+ "shinbori": {
+  "lat": 37.924114,
+  "lng": 139.046234,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀通八番町",
+  "address": "新潟市中央区東堀通8番町",
+  "query": "新潟県新潟市中央区東堀通8番町"
+ },
+ "kuroe": {
+  "lat": 37.925652,
+  "lng": 139.046738,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀通九番町",
+  "address": "新潟市中央区東堀通9番町（2F）",
+  "query": "新潟県新潟市中央区東堀通9番町"
+ },
+ "sushiyasu": {
+  "lat": 37.917599,
+  "lng": 139.045029,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区本町通四番町",
+  "address": "新潟市中央区本町通4番町",
+  "query": "新潟県新潟市中央区本町通4番町"
+ },
+ "daifuku": {
+  "lat": 37.924713,
+  "lng": 139.043518,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀通七番町",
+  "address": "新潟市中央区西堀通7番町",
+  "query": "新潟県新潟市中央区西堀通7番町"
+ },
+ "nakaku": {
+  "lat": 37.921612,
+  "lng": 139.042755,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀通五番町",
+  "address": "新潟市中央区西堀通5番町",
+  "query": "新潟県新潟市中央区西堀通5番町"
+ },
+ "maruyoshi": {
+  "lat": 37.924713,
+  "lng": 139.043518,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀通七番町",
+  "address": "新潟市中央区西堀通7番町",
+  "query": "新潟県新潟市中央区西堀通7番町"
+ },
+ "okina": {
+  "lat": 37.92128,
+  "lng": 139.043839,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀前通六番町",
+  "address": "新潟市中央区西堀前通6番町",
+  "query": "新潟県新潟市中央区西堀前通6番町"
+ },
+ "hatsune": {
+  "lat": 37.922192,
+  "lng": 139.048386,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区上大川前通七番町",
+  "address": "新潟市中央区上大川前通7番町",
+  "query": "新潟県新潟市中央区上大川前通7番町"
+ },
+ "tengu": {
+  "lat": 37.925262,
+  "lng": 139.04541,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通九番町１４８６番地",
+  "address": "新潟市中央区古町通9-1486 アラカワビル1F",
+  "query": "新潟県新潟市中央区古町通9番町1486"
+ },
+ "faro": {
+  "lat": 37.925652,
+  "lng": 139.046738,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀通九番町",
+  "address": "新潟市中央区東堀通9番町",
+  "query": "新潟県新潟市中央区東堀通9番町"
+ },
+ "owl": {
+  "lat": 37.924217,
+  "lng": 139.045395,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通八番町",
+  "address": "新潟市中央区古町通8番町（2F）",
+  "query": "新潟県新潟市中央区古町通8番町"
+ },
+ "kasuga": {
+  "lat": 37.925697,
+  "lng": 139.045807,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通九番町",
+  "address": "新潟市中央区古町通9番町",
+  "query": "新潟県新潟市中央区古町通9番町"
+ },
+ "machida": {
+  "lat": 37.924217,
+  "lng": 139.045395,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通八番町",
+  "address": "新潟市中央区古町通8番町",
+  "query": "新潟県新潟市中央区古町通8番町"
+ },
+ "agato": {
+  "lat": 37.924416,
+  "lng": 139.044647,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀前通八番町",
+  "address": "新潟市中央区西堀前通8番町",
+  "query": "新潟県新潟市中央区西堀前通8番町"
+ },
+ "cask": {
+  "lat": 37.925652,
+  "lng": 139.046738,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀通九番町",
+  "address": "新潟市中央区東堀通9番町（2F）",
+  "query": "新潟県新潟市中央区東堀通9番町"
+ },
+ "alley": {
+  "lat": 37.924114,
+  "lng": 139.046234,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀通八番町",
+  "address": "新潟市中央区東堀通8番町",
+  "query": "新潟県新潟市中央区東堀通8番町"
+ },
+ "teardrop": {
+  "lat": 37.924217,
+  "lng": 139.045395,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通八番町",
+  "address": "新潟市中央区古町通8番町（2F）",
+  "query": "新潟県新潟市中央区古町通8番町"
+ },
+ "pulpfiction": {
+  "lat": 37.924706,
+  "lng": 139.043579,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀通七番町１５４５番地",
+  "address": "新潟市中央区西堀通7-1545-2",
+  "query": "新潟県新潟市中央区西堀通7番町1545"
+ },
+ "ponshugirl": {
+  "lat": 37.924416,
+  "lng": 139.044647,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀前通八番町",
+  "address": "新潟市中央区西堀前通8番町",
+  "query": "新潟県新潟市中央区西堀前通8番町"
+ },
+ "simple": {
+  "lat": 37.924416,
+  "lng": 139.044647,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀前通八番町",
+  "address": "新潟市中央区西堀前通8番町",
+  "query": "新潟県新潟市中央区西堀前通8番町"
+ },
+ "comrado": {
+  "lat": 37.924217,
+  "lng": 139.045395,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通八番町",
+  "address": "新潟市中央区古町通8番町",
+  "query": "新潟県新潟市中央区古町通8番町"
+ },
+ "soup": {
+  "lat": 37.919556,
+  "lng": 139.0439,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区古町通五番町",
+  "address": "新潟市中央区古町通5番町",
+  "query": "新潟県新潟市中央区古町通5番町"
+ },
+ "chouette": {
+  "lat": 37.925652,
+  "lng": 139.046738,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀通九番町",
+  "address": "新潟市中央区東堀通9番町",
+  "query": "新潟県新潟市中央区東堀通9番町"
+ },
+ "cork": {
+  "lat": 37.923107,
+  "lng": 139.042969,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区西堀通六番町",
+  "address": "新潟市中央区西堀通6番町（2F）",
+  "query": "新潟県新潟市中央区西堀通6番町"
+ },
+ "eichi": {
+  "lat": 37.924015,
+  "lng": 139.046799,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区東堀前通八番町",
+  "address": "新潟市中央区東堀前通8番町",
+  "query": "新潟県新潟市中央区東堀前通8番町"
+ },
+ "laric": {
+  "lat": 37.925362,
+  "lng": 139.0466,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通九番町１３９９番地",
+  "address": "新潟市中央区東堀通9-1399 プラザ9ビル3F",
+  "query": "新潟県新潟市中央区東堀通9番町1399"
+ },
+ "jyozo": {
+  "lat": 37.92527,
+  "lng": 139.045944,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通九番町１４５８番地",
+  "address": "新潟市中央区古町通9-1458",
+  "query": "新潟県新潟市中央区古町通9番町1458"
+ },
+ "magoshiro": {
+  "lat": 37.924114,
+  "lng": 139.046249,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通八番町１４１１番地",
+  "address": "新潟市中央区東堀通8-1411-1",
+  "query": "新潟県新潟市中央区東堀通8番町1411"
+ },
+ "nishibori": {
+  "lat": 37.925655,
+  "lng": 139.044968,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀前通九番町１５３３番地",
+  "address": "新潟市中央区西堀前通9-1533",
+  "query": "新潟県新潟市中央区西堀前通9番町1533"
+ },
+ "sakuratei": {
+  "lat": 37.923248,
+  "lng": 139.044846,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通七番町９３４番地",
+  "address": "新潟市中央区古町通7-934-2",
+  "query": "新潟県新潟市中央区古町通7番町934"
+ },
+ "kurai": {
+  "lat": 37.926235,
+  "lng": 139.043961,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀通八番町１５７６番地",
+  "address": "新潟市中央区西堀通8-1576-13",
+  "query": "新潟県新潟市中央区西堀通8番町1576"
+ },
+ "urasaki": {
+  "lat": 37.926231,
+  "lng": 139.04567,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通九番町１４７３番地",
+  "address": "新潟市中央区古町通9-1473",
+  "query": "新潟県新潟市中央区古町通9番町1473"
+ },
+ "absinthe": {
+  "lat": 37.925362,
+  "lng": 139.0466,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通九番町１４０１番地",
+  "address": "新潟市中央区東堀通9-1401-2",
+  "query": "新潟県新潟市中央区東堀通9番町1401"
+ },
+ "sora": {
+  "lat": 37.921406,
+  "lng": 139.045486,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通六番町１０４１番地",
+  "address": "新潟市中央区東堀通6-1041",
+  "query": "新潟県新潟市中央区東堀通6番町1041"
+ },
+ "monami": {
+  "lat": 37.920559,
+  "lng": 139.041992,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀通四番町８２４番地",
+  "address": "新潟市中央区西堀通4-824-1",
+  "query": "新潟県新潟市中央区西堀通4番町824"
+ },
+ "marque": {
+  "lat": 37.919434,
+  "lng": 139.045395,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀前通五番町４１７番地",
+  "address": "新潟市中央区東堀前通5-417-1",
+  "query": "新潟県新潟市中央区東堀前通5番町417"
+ },
+ "gradevole": {
+  "lat": 37.921406,
+  "lng": 139.045486,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通六番町１０３９番地",
+  "address": "新潟市中央区東堀通6-1039",
+  "query": "新潟県新潟市中央区東堀通6番町1039"
+ },
+ "salita": {
+  "lat": 37.920944,
+  "lng": 139.043747,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀前通六番町９００番地",
+  "address": "新潟市中央区西堀前通6-900-2 2F",
+  "query": "新潟県新潟市中央区西堀前通6番町900"
+ },
+ "life": {
+  "lat": 37.91906,
+  "lng": 139.044525,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通五番町４３８番地",
+  "address": "新潟市中央区東堀通5-438 1F",
+  "query": "新潟県新潟市中央区東堀通5番町438"
+ },
+ "iry": {
+  "lat": 37.916382,
+  "lng": 139.039581,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀前通一番町６９４番地",
+  "address": "新潟市中央区西堀前通1-694",
+  "query": "新潟県新潟市中央区西堀前通1番町694"
+ },
+ "azzurri": {
+  "lat": 37.921036,
+  "lng": 139.04599,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀前通六番町１０６２番地",
+  "address": "新潟市中央区東堀前通6-1062-2",
+  "query": "新潟県新潟市中央区東堀前通6番町1062"
+ },
+ "porcorosso": {
+  "lat": 37.922382,
+  "lng": 139.045135,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通七番町９９５番地",
+  "address": "新潟市中央区古町通7-995 2F",
+  "query": "新潟県新潟市中央区古町通7番町995"
+ },
+ "kofu": {
+  "lat": 37.918983,
+  "lng": 139.041245,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀通三番町８００番地",
+  "address": "新潟市中央区西堀通3-800-1",
+  "query": "新潟県新潟市中央区西堀通3番町800"
+ },
+ "meiku": {
+  "lat": 37.921814,
+  "lng": 139.041122,
+  "matched_level": "district",
+  "matched_title": "新潟県新潟市中央区寄居町３３２番地",
+  "address": "新潟市中央区寄居町332 アーバン東中通2F",
+  "query": "新潟県新潟市中央区寄居町332"
+ },
+ "vittoria": {
+  "lat": 37.921608,
+  "lng": 139.044418,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通六番町９５３番地",
+  "address": "新潟市中央区古町通6-953-2",
+  "query": "新潟県新潟市中央区古町通6番町953"
+ },
+ "matsumoto": {
+  "lat": 37.924252,
+  "lng": 139.044617,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区西堀前通八番町１５１６番地",
+  "address": "新潟市中央区西堀前通8-1516",
+  "query": "新潟県新潟市中央区西堀前通8番町1516"
+ },
+ "kankodori": {
+  "lat": 37.923595,
+  "lng": 139.046661,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀前通八番町１３７０番地",
+  "address": "新潟市中央区東堀前通8-1370",
+  "query": "新潟県新潟市中央区東堀前通8番町1370"
+ },
+ "sekitori": {
+  "lat": 37.925823,
+  "lng": 139.046097,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通九番町１４６４番地",
+  "address": "新潟市中央区古町通9-1464",
+  "query": "新潟県新潟市中央区古町通9番町1464"
+ },
+ "miyakoya": {
+  "lat": 37.91972,
+  "lng": 139.044907,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通五番町４３０番地",
+  "address": "新潟市中央区東堀通5-430-1",
+  "query": "新潟県新潟市中央区東堀通5番町430"
+ },
+ "juban": {
+  "lat": 37.926643,
+  "lng": 139.045761,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通十番町１６６４番地",
+  "address": "新潟市中央区古町通10-1664",
+  "query": "新潟県新潟市中央区古町通10番町1664"
+ },
+ "jo": {
+  "lat": 37.924313,
+  "lng": 139.045135,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１５０４番地",
+  "address": "新潟市中央区古町通8-1504 江部ビル1F",
+  "query": "新潟県新潟市中央区古町通8番町1504"
+ },
+ "steakfive": {
+  "lat": 37.927879,
+  "lng": 139.046844,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通十一番町１７４８番地",
+  "address": "新潟市中央区東堀通11-1748-1（京相模敷地内）",
+  "query": "新潟県新潟市中央区東堀通11番町1748"
+ },
+ "kushinobo": {
+  "lat": 37.924438,
+  "lng": 139.045715,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１４４６番地",
+  "address": "新潟市中央区古町通8-1446-2",
+  "query": "新潟県新潟市中央区古町通8番町1446"
+ },
+ "mikami": {
+  "lat": 37.924313,
+  "lng": 139.045135,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１５０４番地",
+  "address": "新潟市中央区古町通8-1504-1 ビジョネアビル1F",
+  "query": "新潟県新潟市中央区古町通8番町1504"
+ },
+ "togarashi": {
+  "lat": 37.924313,
+  "lng": 139.045135,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１４８８番地",
+  "address": "新潟市中央区古町通8-1488-2 新高ビル1F",
+  "query": "新潟県新潟市中央区古町通8番町1488"
+ },
+ "keiryu": {
+  "lat": 37.925823,
+  "lng": 139.046097,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通九番町１４６４番地",
+  "address": "新潟市中央区古町通9番町1464",
+  "query": "新潟県新潟市中央区古町通9番町1464"
+ },
+ "non": {
+  "lat": 37.924313,
+  "lng": 139.045135,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１５０３番地",
+  "address": "新潟市中央区古町通8番町1503",
+  "query": "新潟県新潟市中央区古町通8番町1503"
+ },
+ "ranriko": {
+  "lat": 37.924313,
+  "lng": 139.045135,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区古町通八番町１５０８番地",
+  "address": "新潟市中央区古町通8番町1508 永喜多ビル3F",
+  "query": "新潟県新潟市中央区古町通8番町1508"
+ },
+ "kei": {
+  "lat": 37.925362,
+  "lng": 139.0466,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区東堀通九番町１４０７番地",
+  "address": "新潟市中央区東堀通9番町1407",
+  "query": "新潟県新潟市中央区東堀通9番町1407"
+ },
+ "seikoan-bettei": {
+  "lat": 37.923225,
+  "lng": 139.038376,
+  "matched_level": "full",
+  "matched_title": "新潟県新潟市中央区営所通二番町６９２番地",
+  "address": "新潟市中央区営所通二番町692-6",
+  "query": "新潟県新潟市中央区営所通二番町692-6"
+ }
+}
