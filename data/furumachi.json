@@ -1460,6 +1460,26 @@
   "precision": "full"
  },
  {
+  "slug": "nogi",
+  "genre": "soba",
+  "ja": "めん処 乃木",
+  "en": "Mendokoro Nogi",
+  "addr": "新潟市中央区西堀前通8-1523",
+  "note_ja": "西堀の路地裏に2026年2月開店。大豆だしと各地の魚醤の無添加ラーメン、具は刻みネギだけ",
+  "note_en": "Opened in February 2026 down a Nishibori back lane — additive-free ramen of soy dashi and fish sauces from across Japan, topped with green onions alone",
+  "note_fr": "Ouvert en février 2026 dans une ruelle de Nishibori — ramen sans additifs, bouillon de soja et sauces de poisson de tout le Japon, garni de ciboule seulement",
+  "hours": [
+   "11:30–15:00／17:30–21:00（水曜休、ほか不定休）",
+   "11:30–15:00, 17:30–21:00 (closed Wed & some other days)",
+   "11:30–15:00, 17:30–21:00 (fermé mer. et certains jours)"
+  ],
+  "url": "https://www.instagram.com/mendokoro_nogi/",
+  "rec": null,
+  "lat": 37.924747,
+  "lng": 139.044739,
+  "precision": "full"
+ },
+ {
   "slug": "absinthe",
   "genre": "west",
   "ja": "absinthe（アブサン）",
@@ -1480,43 +1500,23 @@
   "precision": "full"
  },
  {
-  "slug": "sora",
+  "slug": "onuzim",
   "genre": "west",
-  "ja": "ランプビストロ ソラ",
-  "en": "Lamp bistro SORA",
-  "addr": "新潟市中央区東堀通6-1041",
-  "note_ja": "2階のビストロ",
-  "note_en": "A bistro upstairs",
-  "note_fr": "Un bistrot à l'étage",
+  "ja": "ONUZIM（オヌジム）",
+  "en": "ONUZIM",
+  "addr": "新潟市中央区西堀前通9-1533-1",
+  "note_ja": "カウンター8席のみ、18時半一斉スタートの完全予約制フレンチ。新潟の旬を盛るおまかせコースだけの一軒",
+  "note_en": "Just eight counter seats and one 18:30 seating, by reservation only — a single chef's-choice French course built on Niigata's seasonal best",
+  "note_fr": "Huit places au comptoir, un seul service à 18 h 30, uniquement sur réservation — un menu dégustation français composé des produits de saison de Niigata",
   "hours": [
-   "11:30–15:00／17:30–22:00（水曜休）",
-   "11:30–15:00, 17:30–22:00 (closed Wed)",
-   "11:30–15:00, 17:30–22:00 (fermé mer.)"
+   "18:30–22:00（日・月曜休、完全予約制）",
+   "18:30–22:00 (closed Sun & Mon; reservations essential)",
+   "18:30–22:00 (fermé dim. et lun. ; réservation indispensable)"
   ],
-  "url": "https://sora-niigata.owst.jp/",
+  "url": "https://www.onuzim.com/",
   "rec": null,
-  "lat": 37.921406,
-  "lng": 139.045486,
-  "precision": "full"
- },
- {
-  "slug": "monami",
-  "genre": "west",
-  "ja": "モナミピエロ",
-  "en": "Mon Ami Pierrot",
-  "addr": "新潟市中央区西堀通4-824-1",
-  "note_ja": "西堀のフレンチ",
-  "note_en": "French cooking on Nishibori-dori",
-  "note_fr": "Cuisine française à Nishibori",
-  "hours": [
-   "12:00–14:00／18:00–22:00（月曜休）",
-   "12:00–14:00, 18:00–22:00 (closed Mon)",
-   "12:00–14:00, 18:00–22:00 (fermé lun.)"
-  ],
-  "url": "https://monamipierrot.gorp.jp/",
-  "rec": null,
-  "lat": 37.920559,
-  "lng": 139.041992,
+  "lat": 37.925655,
+  "lng": 139.044968,
   "precision": "full"
  },
  {
