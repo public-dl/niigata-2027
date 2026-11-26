@@ -98,32 +98,32 @@ PAGES = {
  "sushi.html": dict(
    og_type="website",
    title="Sushi in Niigata City — Local Fish, Niigata Rice | Niigata 2027",
-   desc="Where to eat sushi in Niigata City: seven restaurants where the fish comes from Niigata and Sado waters and the rice is Niigata-grown — from award-winning omakase counters to a conveyor-belt shop inside the fish market.",
+   desc="Where to eat sushi in Niigata City: twenty restaurants where the fish comes from Niigata and Sado waters and the rice is Niigata-grown — from award-winning omakase counters to a conveyor-belt shop inside the fish market.",
    schema_type="WebPage"),
  "sushi-ja.html": dict(
    og_type="website",
    title="新潟市の寿司 ― 地魚と新潟の米 | Niigata 2027",
-   desc="新潟市内で、新潟・佐渡沖の地魚と新潟産の米のシャリを味わえる寿司屋7店。食べログアワード受賞のおまかせカウンターから、魚市場の回転寿司まで。",
+   desc="新潟市内で、新潟・佐渡沖の地魚と新潟産の米のシャリを味わえる寿司屋20店。食べログアワード受賞のおまかせカウンターから、魚市場の回転寿司まで。",
    schema_type="WebPage"),
  "sushi-fr.html": dict(
    og_type="website",
    title="Les sushis dans la ville de Niigata — poisson local, riz de Niigata | Niigata 2027",
-   desc="Où manger des sushis dans la ville de Niigata : sept restaurants où le poisson vient des eaux de Niigata et de Sado et où le riz est cultivé à Niigata — des comptoirs omakase primés au kaiten du marché aux poissons.",
+   desc="Où manger des sushis dans la ville de Niigata : vingt restaurants où le poisson vient des eaux de Niigata et de Sado et où le riz est cultivé à Niigata — des comptoirs omakase primés au kaiten du marché aux poissons.",
    schema_type="WebPage"),
  "sushi-map.html": dict(
    og_type="website",
    title="Map — Sushi in Niigata City | Niigata 2027",
-   desc="An interactive map of seven sushi restaurants in Niigata City, Japan, where the fish and the rice are both local — omakase counters in Furumachi, station-side shops and a conveyor-belt restaurant in the Pier Bandai market.",
+   desc="An interactive map of twenty sushi restaurants in Niigata City, Japan, where the fish and the rice are both local — omakase counters in Furumachi, station-side shops and a conveyor-belt restaurant in the Pier Bandai market.",
    schema_type="WebPage"),
  "sushi-map-ja.html": dict(
    og_type="website",
    title="新潟市の寿司マップ | Niigata 2027",
-   desc="新潟市の寿司特集で紹介した7店を地図にプロット。古町のおまかせカウンター、駅前の店、ピアBandaiの回転寿司まで、価格の目安つき。",
+   desc="新潟市の寿司特集で紹介した20店を地図にプロット。古町のおまかせカウンター、駅前の店、ピアBandaiの回転寿司まで、価格の目安つき。",
    schema_type="WebPage"),
  "sushi-map-fr.html": dict(
    og_type="website",
    title="Carte — Les sushis à Niigata | Niigata 2027",
-   desc="Une carte interactive de sept restaurants de sushis dans la ville de Niigata, au Japon, où le poisson et le riz sont tous deux locaux — comptoirs omakase de Furumachi, adresses près de la gare et un kaiten dans le marché de Pier Bandai.",
+   desc="Une carte interactive de vingt restaurants de sushis dans la ville de Niigata, au Japon, où le poisson et le riz sont tous deux locaux — comptoirs omakase de Furumachi, adresses près de la gare et un kaiten dans le marché de Pier Bandai.",
    schema_type="WebPage"),
  "furumachi.html": dict(
    og_type="website",
